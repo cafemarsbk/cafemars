@@ -6,40 +6,53 @@ import { Icon } from "astro-icon";
 import { Image } from "@astrojs/image/components";
 ---
 
-<main
-  class="grid lg:grid-cols-2 place-items-center pt-16 pb-4 md:pt-12 md:pb-4">
-  <div class="p-6 col-span-1 hidden dark:block">
-    <Image
-      src="/Cafe Mars Facade inverse.jpg"
-      width={500}
-      height={500}
-      alt="cool"
-    />
+<section id="sectionImage" class="hero-normal">
+  <div class="h-screen grid grid-cols-1 md:grid-cols-3 gap-16">
+    <div class="hidden md:block md:col-span-1"></div>
+    <div class="col-span-1 flex justify-center items-center">
+      <img
+        id="logo"
+        src="/CafeMars_-_Logos-01_pmmvt1.png"
+        alt="hover log"
+        class="w-4/5 duration-700"
+      />
+    </div>
+    <div class="hidden md:block md:col-span-1"></div>
   </div>
-  <div class="p-6 col-span-1 block dark:hidden">
-    <Image
-      src="/Cafe Mars Facade Black.png"
-      width={500}
-      height={500}
-      alt="cool"
-    />
-  </div>
-  <div class="flex flex-col justify-center align-items-center">
-    <h1
-      class="text-3xl lg:text-4xl xl:text-6xl font-bold lg:tracking-tight xl:tracking-tighter font-sans">
-      <span class="text-[#00b74f]">An</span>
-      <span class="text-[#fb3bb3]">Unusual</span>
-      <span class="text-[#0072ce]">Italian</span>
-      <span class="text-[#ffe900]">Restaraunt</span>
-    </h1>
-    <p class="text-lg mt-4 text-slate-600 dark:text-slate-200 max-w-xl">
-      celebration of Italian cuisine with a twist. A fun atmosphere for everyone
-      to enjoy as they savor delicious dishes and share stories with friends.
-      The perfect blend of unique flavors and traditional recipes creates a
-      memorable dining experience. Relish the mouth-watering appetizers,
-      exquisite entrees, and delightful desserts in a cozy ambiance that brings
-      people together. Indulge in the culinary delights and create lasting
-      memories at this exceptional dining destination.
-    </p>
-  </div>
-</main>
+</section>
+
+<script>
+  import { noop } from "rxjs";
+
+  const logo = document.getElementById("logo");
+  const imageToChange = document.getElementById("sectionImage");
+
+  logo?.addEventListener("mouseover", () => {
+    imageToChange?.classList.toggle("hero-normal");
+    imageToChange?.classList.toggle("hero-inverted");
+  });
+
+  logo?.addEventListener("mouseout", () => {
+    imageToChange?.classList.toggle("hero-normal");
+    imageToChange?.classList.toggle("hero-inverted");
+  });
+
+  window.addEventListener("mousemove", (e) => {
+    const logoRect = logo.getBoundingClientRect();
+    const centerX = logoRect.left + logoRect.width / 2;
+    const centerY = logoRect.top + logoRect.height / 2;
+    const distanceX = e.clientX - centerX;
+    const distanceY = e.clientY - centerY;
+
+    const normalizedDistanceX = (distanceX / window.innerWidth) * 2;
+    const normalizedDistanceY = (distanceY / window.innerHeight) * 2;
+
+    console.log(normalizedDistanceX, normalizedDistanceY);
+
+    const maxRotation = 35;
+    const rotationX = normalizedDistanceY * maxRotation * -1;
+    const rotationY = normalizedDistanceX * maxRotation * -1;
+
+    logo.style.transform = `rotateX(${-1*Math.abs(rotationX)}deg) rotateY(${rotationY}deg)`;
+  });
+</script>

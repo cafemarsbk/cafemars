@@ -55,6 +55,29 @@ export default defineConfig({
                 type: "string",
               },
               {
+                label: "Pasta Menu Image",
+                name: "pastaImage",
+                type: "string",
+                options: [
+                  {
+                    value: "/snacks_o8cu6x.svg",
+                    label: "Green Pasta",
+                  },
+                  {
+                    value: "/before_d7e91s.svg",
+                    label: "Pink Pasta",
+                  },
+                  {
+                    value: "/pasta_drr2wp.svg",
+                    label: "Yellow Pasta",
+                  },
+                  {
+                    value: "/big_i8isdj.svg",
+                    label: "Blue Pasta",
+                  },
+                ],
+              },
+              {
                 label: "Menu Items",
                 name: "menuItems",
                 type: "object",

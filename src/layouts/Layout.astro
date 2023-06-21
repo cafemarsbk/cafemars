@@ -48,10 +48,14 @@ const makeTitle = title
       }}
     />
   </head>
-  <body class="bg-slate-100 dark:bg-black text-slate-600 dark:text-slate-200">
+  <body class="text-black font-helevetica">
     <Navbar />
     <slot />
     <Footer />
+    <div
+      id="mouse-circle"
+      class="fixed w-12 h-12 ml-6 mt-6 pointer-events-none mix-blend-difference rounded-full bg-black backdrop-invert z-50">
+    </div>
     <style is:global>
       /* Improve Page speed */
       /* https://css-tricks.com/almanac/properties/c/content-visibility/ */
@@ -59,5 +63,27 @@ const makeTitle = title
         content-visibility: auto;
       }
     </style>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        let mousePosX = 0,
+          mousePosY = 0,
+          mouseCircle = document.getElementById("mouse-circle");
+        document.onmousemove = (e) => {
+          mousePosX = e.pageX;
+          mousePosY = e.pageY;
+        };
+        let delay = 12,
+          revisedMousePosX = 0,
+          revisedMousePosY = 0;
+        function delayMouseFollow() {
+          requestAnimationFrame(delayMouseFollow);
+          revisedMousePosX += (mousePosX - revisedMousePosX) / delay;
+          revisedMousePosY += (mousePosY - revisedMousePosY) / delay;
+          mouseCircle.style.top = revisedMousePosY + "px";
+          mouseCircle.style.left = revisedMousePosX + "px";
+        }
+        delayMouseFollow();
+      });
+    </script>
   </body>
 </html>
