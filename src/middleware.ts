@@ -6,8 +6,7 @@ export function onRequest({ request }, next) {
   if (isInMaintenance) {
     const url = new URL(request.url);
     if (url.pathname !== "/") {
-      url.pathname = "/";
-      return Response.redirect(url, 307);
+      throw Error("Site is in maintenance mode");
     }
   }
 
