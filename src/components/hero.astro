@@ -22,8 +22,6 @@ import { Image } from "@astrojs/image/components";
 </section>
 
 <script>
-  import { noop } from "rxjs";
-
   const logo = document.getElementById("logo");
   const imageToChange = document.getElementById("sectionImage");
 
@@ -47,12 +45,16 @@ import { Image } from "@astrojs/image/components";
     const normalizedDistanceX = (distanceX / window.innerWidth) * 2;
     const normalizedDistanceY = (distanceY / window.innerHeight) * 2;
 
-    console.log(normalizedDistanceX, normalizedDistanceY);
-
     const maxRotation = 35;
     const rotationX = normalizedDistanceY * maxRotation * -1;
     const rotationY = normalizedDistanceX * maxRotation * -1;
 
-    logo.style.transform = `rotateX(${-1*Math.abs(rotationX)}deg) rotateY(${rotationY}deg)`;
+    if (window.innerWidth > 1024) {
+      logo.style.transform = `rotateX(${
+        -1 * Math.abs(rotationX)
+      }deg) rotateY(${rotationY}deg)`;
+    } else {
+      logo.style.transform = `rotateX(0deg) rotateY(0deg)`;
+    }
   });
 </script>
