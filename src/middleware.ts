@@ -1,4 +1,4 @@
-import sitesettings from "./content/sitesettings/Site-Settings.json";
+import sitesettings from "./content/sitesettings/entry.json";
 
 export function onRequest({ request }, next) {
   const isInMaintenance = sitesettings.maintenanceMode === true;

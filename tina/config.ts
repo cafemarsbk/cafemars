@@ -60,19 +60,19 @@ export default defineConfig({
                 type: "string",
                 options: [
                   {
-                    value: "/snacks_o8cu6x.svg",
+                    value: "/photos/snacks_o8cu6x.svg",
                     label: "Green Pasta",
                   },
                   {
-                    value: "/before_d7e91s.svg",
+                    value: "/photos/before_d7e91s.svg",
                     label: "Pink Pasta",
                   },
                   {
-                    value: "/pasta_drr2wp.svg",
+                    value: "/photos/pasta_drr2wp.svg",
                     label: "Yellow Pasta",
                   },
                   {
-                    value: "/big_i8isdj.svg",
+                    value: "/photos/big_i8isdj.svg",
                     label: "Blue Pasta",
                   },
                 ],
@@ -122,14 +122,13 @@ export default defineConfig({
         label: "Gallery",
         path: "src/content/gallery",
         format: "json",
-        fields: [
-          {
-            label: "Title",
-            name: "title",
-            type: "string",
-            required: true,
-            isTitle: true,
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
           },
+        },
+        fields: [
           {
             label: "Photo Entry",
             name: "photoentry",
@@ -167,14 +166,13 @@ export default defineConfig({
         label: "Site Settings",
         path: "src/content/sitesettings",
         format: "json",
-        fields: [
-          {
-            label: "Title",
-            name: "title",
-            type: "string",
-            required: true,
-            isTitle: true,
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
           },
+        },
+        fields: [
           {
             label: "Maintenance Mode",
             name: "maintenanceMode",
@@ -182,6 +180,65 @@ export default defineConfig({
           },
         ],
       },
+      {
+        name: "businessinfo",
+        label: "Business Information",
+        path: "src/content/businessinfo",
+        format: "json",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        fields: [
+          {
+            label: "Opening Hours",
+            name: "openingHours",
+            type: "object",
+            fields: [
+              {
+                label: "Day",
+                name: "day",
+                type: "string",
+                options: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+              },
+              {
+                label: "Opening Time",
+                name: "openingTime",
+                type: "string",
+              },
+              {
+                label: "Closing Time",
+                name: "closingTime",
+                type: "string",
+              },
+            ],
+            list: true,
+            ui: {
+              itemProps: (item) => {
+                return { label: item?.day };
+              },
+            },
+          },
+        ],
+      },
     ],
   },
 });
+
+// Monday: Closed
+// Tuesday: Closed
+// Wednesday: 5:30pm - 9pm
+// Thursday: 5:30pm - 9pm
+// Friday: 5:30pm - 9pm
+// Saturday: 5:30pm - 10pm
+// Sunday: 3pm - 6:30pm

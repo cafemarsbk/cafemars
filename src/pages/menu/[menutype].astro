@@ -4,6 +4,7 @@ import { getCollection } from "astro:content";
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import { Image } from "@astrojs/image/components";
+import Banner from "@components/banner.astro";
 
 // Static paths
 export async function getStaticPaths() {
@@ -23,10 +24,7 @@ const { entry } = Astro.props;
 
 <Layout title={entry.data.title}>
   <!-- Menu header -->
-  <div
-    class="flex justify-center items-center h-64 bg-pasta-rain animate-pasta-rain mb-12">
-    <h1 class="text-6xl md:text-8xl">Menus</h1>
-  </div>
+  <Banner bannerTitle="menu" />
 
   <Container>
     <!-- Menu links -->

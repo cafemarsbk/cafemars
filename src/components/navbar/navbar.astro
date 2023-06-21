@@ -3,8 +3,8 @@ import Container from "@components/container.astro";
 import { getEntry } from "astro:content";
 import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 
-const settingsEntry = await getEntry("sitesettings", "Site-Settings");
-const isInMaintenance = settingsEntry.data.maintenanceMode;
+const settingsEntry = await getEntry("sitesettings", "entry");
+const isInMaintenance = settingsEntry?.data.maintenanceMode;
 
 const menuitems = isInMaintenance
   ? []
@@ -30,7 +30,7 @@ const menuitems = isInMaintenance
       <div class="flex w-full lg:w-auto items-center justify-between py-1">
         <a href="/" class="text-lg">
           <div class="w-56">
-            <img src="/CafeMars_-_Logos-02_sslpr1.avif" alt="" />
+            <img src="/photos/CafeMars_-_Logos-02_sslpr1.avif" alt="" />
           </div>
         </a>
         <div class="block lg:hidden">

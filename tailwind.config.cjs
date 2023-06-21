@@ -29,15 +29,15 @@ module.exports = {
       addUtilities({
         ".hero-normal": {
           background:
-            "url('/Cafe Mars Facade Black.png') center center / cover no-repeat",
+            "url('/photos/Cafe Mars Facade Black.png') center center / cover no-repeat",
         },
         ".hero-inverted": {
           background:
-            "url('/Cafe Mars Facade inverse.jpg') center center / cover no-repeat",
+            "url('/photos/Cafe Mars Facade inverse.jpg') center center / cover no-repeat",
         },
         ".bg-pasta-rain": {
           background:
-            'url("/pattern_1_etafix.png"), url("/pattern_2_qhgojs.png"), url("/pattern_3_fqyhrc.png")',
+            'url("/photos/pattern_1_etafix.png"), url("/photos/pattern_2_qhgojs.png"), url("/photos/pattern_3_fqyhrc.png")',
         },
         ".font-helevetica": {
           fontFamily: "'Helvetica', 'sans-serif'",

@@ -3,7 +3,7 @@
   "subsection": [
     {
       "title": "Snacks",
-      "pastaImage": "/snacks_o8cu6x.svg",
+      "pastaImage": "/photos/snacks_o8cu6x.svg",
       "menuItems": [
         {
           "name": "Jell-Olives",
@@ -28,7 +28,7 @@
     },
     {
       "title": "Before",
-      "pastaImage": "/before_d7e91s.svg",
+      "pastaImage": "/photos/before_d7e91s.svg",
       "menuItems": [
         {
           "name": "lots of lettuce",
@@ -59,7 +59,7 @@
     },
     {
       "title": "Pasta",
-      "pastaImage": "/pasta_drr2wp.svg",
+      "pastaImage": "/photos/pasta_drr2wp.svg",
       "menuItems": [
         {
           "name": "baked potato gnoccchi",
@@ -85,7 +85,7 @@
     },
     {
       "title": "Big",
-      "pastaImage": "/big_i8isdj.svg",
+      "pastaImage": "/photos/big_i8isdj.svg",
       "menuItems": [
         {
           "name": "pancake primavera pickles",
