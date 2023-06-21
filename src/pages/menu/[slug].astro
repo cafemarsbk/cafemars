@@ -71,11 +71,11 @@ const { entry } = Astro.props;
           </div>
         ) : (
           <div>
-            <Image
+            <img
               src={entry.data.menuPicture}
               alt="Menu Image"
-              width={1200}
-              aspectRatio="1:1.42"
+              loading="eager"
+              class="w-full"
             />
           </div>
         )
