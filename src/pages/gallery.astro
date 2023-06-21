@@ -1,0 +1,28 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+
+const galleryItems = await getCollection("gallery");
+
+console.log(galleryItems);
+---
+
+<Layout title={galleryItems[0].data.title}>
+  <div class="flex justify-center items-center h-64 bg-[#0072ce] mb-12">
+    <h1 class="text-6xl md:text-8xl font-cafemars text-slate-200">Gallery</h1>
+  </div>
+  <Container>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
+      {
+        galleryItems[0].data.photoentry.map((photo) => (
+          <>
+            <div class="col-span-1">
+              <img class="w-full" src={photo.photo} alt={photo.description} />
+            </div>
+          </>
+        ))
+      }
+    </div>
+  </Container>
+</Layout>

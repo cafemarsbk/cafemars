@@ -1,0 +1,27 @@
+{
+  "title": "Beverages",
+  "subsection": [
+    {
+      "title": "After",
+      "menuItems": [
+        {
+          "name": "mara de bois strawberries ",
+          "description": "mint, rosé zabaglione",
+          "price": 12
+        },
+        {
+          "name": "olive marble cake",
+          "description": "amarena cherries, whipped cream",
+          "price": 11
+        },
+        {
+          "name": "orange Italian ice",
+          "description": "dolce di bay, pistachio crumble",
+          "price": 11
+        }
+      ]
+    }
+  ],
+  "pictureOrText": true,
+  "menuPicture": "/bellini.png"
+}

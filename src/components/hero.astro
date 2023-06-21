@@ -1,0 +1,34 @@
+---
+import { Picture } from "@astrojs/image/components";
+import heroImage from "assets/Cafe Mars Facade Black.png";
+import Link from "@components/ui/link.astro";
+import { Icon } from "astro-icon";
+---
+
+<main
+  class="grid lg:grid-cols-2 place-items-center pt-16 pb-4 md:pt-12 md:pb-4">
+  <div class="py-6 col-span-1 hidden dark:block">
+    <img src="public/Cafe Mars Facade inverse.jpg" alt="" />
+  </div>
+  <div class="py-6 col-span-1 block dark:hidden">
+    <img src="public/Cafe Mars Facade Black.png" alt="" />
+  </div>
+  <div class="flex flex-col justify-center align-items-center">
+    <h1
+      class="text-3xl lg:text-4xl xl:text-6xl font-bold lg:tracking-tight xl:tracking-tighter font-sans">
+      <span class="text-[#00b74f]">An</span>
+      <span class="text-[#fb3bb3]">Unusual</span>
+      <span class="text-[#0072ce]">Italian</span>
+      <span class="text-[#ffe900]">Restaraunt</span>
+    </h1>
+    <p class="text-lg mt-4 text-slate-600 dark:text-slate-200 max-w-xl">
+      celebration of Italian cuisine with a twist. A fun atmosphere for everyone
+      to enjoy as they savor delicious dishes and share stories with friends.
+      The perfect blend of unique flavors and traditional recipes creates a
+      memorable dining experience. Relish the mouth-watering appetizers,
+      exquisite entrees, and delightful desserts in a cozy ambiance that brings
+      people together. Indulge in the culinary delights and create lasting
+      memories at this exceptional dining destination.
+    </p>
+  </div>
+</main>

@@ -1,0 +1,76 @@
+---
+import Container from "@components/container.astro";
+import Link from "@components/ui/link.astro";
+import Toggledarkmode from "@components/ui/toggledarkmode.astro";
+import Dropdown from "./dropdown.astro";
+import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
+
+const menuitems = [
+  {
+    title: "Menus",
+    path: "/menu/main",
+  },
+  {
+    title: "Gallery",
+    path: "/gallery",
+  },
+  {
+    title: "Friends",
+    path: "/friends",
+  },
+  {
+    title: "About",
+    path: "/about",
+  },
+  {
+    title: "Contact",
+    path: "/contact",
+  },
+];
+---
+
+<Container>
+  <header class="flex flex-col lg:flex-row justify-between items-center my-5">
+    <Astronav>
+      <div class="flex w-full lg:w-auto items-center justify-between">
+        <a href="/" class="text-lg">
+          <div class="w-64">
+            <img src="/src/assets/CafeMars_-_Logos-02_sslpr1.avif" alt="" />
+          </div>
+        </a>
+        <div class="block lg:hidden">
+          <a
+            href="https://exploretock.com/cafemarsbk"
+            class="text-white bg-[#00b74f] hover:bg-[#00b74f] focus:ring-4 font-medium rounded-full text-lg px-5 py-2.5 mr-2 mb-2"
+            >Book</a
+          >
+          <MenuIcon class="w-4 h-4 text-gray-800 dark:text-gray-200" />
+        </div>
+      </div>
+
+      <MenuItems class="hidden w-full lg:w-auto mt-2 lg:flex lg:mt-0">
+        <ul class="flex flex-col lg:flex-row lg:gap-3">
+          {
+            menuitems.map((item, index) => (
+              <>
+                <li>
+                  <a
+                    href={item.path}
+                    class="flex lg:px-3 py-2 text-gray-600 dark:text-gray-200 hover:text-gray-900">
+                    {item.title}
+                  </a>
+                </li>
+              </>
+            ))
+          }
+          <Toggledarkmode />
+          <a
+            href="https://exploretock.com/cafemarsbk"
+            class="hidden lg:block text-white bg-[#00b74f] hover:bg-[#00b74f] focus:ring-4 font-medium rounded-full text-lg px-5 py-2.5 mr-2 mb-2"
+            >Book</a
+          >
+        </ul>
+      </MenuItems>
+    </Astronav>
+  </header>
+</Container>
