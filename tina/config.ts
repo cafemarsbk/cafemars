@@ -47,6 +47,7 @@ export default defineConfig({
             label: "Subsection",
             name: "subsection",
             type: "object",
+            required: true,
             fields: [
               {
                 label: "Title",
