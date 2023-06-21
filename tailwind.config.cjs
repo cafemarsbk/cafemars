@@ -7,7 +7,6 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["InterVariable", "Inter", ...defaultTheme.fontFamily.sans],
-        cafemars: ["cafemars"],
       },
     },
   },
