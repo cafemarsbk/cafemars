@@ -2,22 +2,28 @@
 import Container from "@components/container.astro";
 import Link from "@components/ui/link.astro";
 import Dropdown from "./dropdown.astro";
+import { getEntry } from "astro:content";
 import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 
-const menuitems = [
-  {
-    title: "menus",
-    path: "/menu/main",
-  },
-  {
-    title: "gallery",
-    path: "/gallery",
-  },
-  {
-    title: "contact",
-    path: "/contact",
-  },
-];
+const settingsEntry = await getEntry("sitesettings", "Site-Settings");
+const isInMaintenance = settingsEntry.data.maintenanceMode;
+
+const menuitems = isInMaintenance
+  ? []
+  : [
+      {
+        title: "menus",
+        path: "/menu/main",
+      },
+      {
+        title: "gallery",
+        path: "/gallery",
+      },
+      {
+        title: "contact",
+        path: "/contact",
+      },
+    ];
 ---
 
 <Container>

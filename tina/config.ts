@@ -162,6 +162,26 @@ export default defineConfig({
           },
         ],
       },
+      {
+        name: "sitesettings",
+        label: "Site Settings",
+        path: "src/content/sitesettings",
+        format: "json",
+        fields: [
+          {
+            label: "Title",
+            name: "title",
+            type: "string",
+            required: true,
+            isTitle: true,
+          },
+          {
+            label: "Maintenance Mode",
+            name: "maintenanceMode",
+            type: "boolean",
+          },
+        ],
+      },
     ],
   },
 });
