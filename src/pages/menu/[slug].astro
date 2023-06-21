@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
+import { Image } from "@astrojs/image/components";
 
 export async function getStaticPaths() {
   const menuEntries = await getCollection("menus");
@@ -65,7 +66,7 @@ const { entry } = Astro.props;
         </div>
       ) : (
         <div>
-          <img src={entry.data.menuPicture} alt="" />
+          <Image src={entry.data.menuPicture} alt="Menu Image" />
         </div>
       )
     }
