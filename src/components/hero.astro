@@ -44,8 +44,6 @@ import { Image } from "@astrojs/image/components";
     const normalizedDistanceX = (distanceX / window.innerWidth) * 2;
     const normalizedDistanceY = (distanceY / window.innerHeight) * 2;
 
-    console.log(normalizedDistanceX, normalizedDistanceY);
-
     const maxRotation = 35;
     const rotationX = normalizedDistanceY * maxRotation * -1;
     const rotationY = normalizedDistanceX * maxRotation * -1;
@@ -55,10 +53,7 @@ import { Image } from "@astrojs/image/components";
         -1 * Math.abs(rotationX)
       }deg) rotateY(${rotationY}deg)`;
     } else {
-      logo.style.transform = `rotateX(0deg) rotateY(0deg)`;
+      logo.style.transform = "rotateX(0deg) rotateY(0deg)";
     }
-    logo.style.transform = `rotateX(${
-      -1 * Math.abs(rotationX)
-    }deg) rotateY(${rotationY}deg)`;
   });
 </script>
