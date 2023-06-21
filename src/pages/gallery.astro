@@ -19,7 +19,7 @@ console.log(galleryItems);
         galleryItems[0].data.photoentry.map((photo) => (
           <>
             <div class="col-span-1">
-              <Image src={photo.photo} alt={photo.description}/>
+              <Image src={photo.photo} width={600} aspectRatio="9:16" alt={photo.description}/>
             </div>
           </>
         ))
