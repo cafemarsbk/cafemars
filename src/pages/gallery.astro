@@ -1,25 +1,28 @@
 ---
+// Import necessary modules and components
 import { getCollection } from "astro:content";
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import { Image } from "@astrojs/image/components";
 
+// Fetch gallery items from the collection
 const galleryItems = await getCollection("gallery");
-
-console.log(galleryItems);
 ---
 
+<!-- // Render the Layout component with the gallery title -->
 <Layout title={galleryItems[0].data.title}>
   <div
     class="flex justify-center items-center h-64 bg-pasta-rain animate-pasta-rain mb-12">
     <h1 class="text-6xl md:text-8xl">Gallery</h1>
   </div>
   <Container>
+    <!-- // Render a grid of images using the gallery items -->
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mb-8">
       {
         galleryItems[0].data.photoentry.map((photo) => (
           <>
             <div class="col-span-1">
+              // Render the Image component with the photo's properties
               <Image
                 src={photo.photo}
                 width={600}
