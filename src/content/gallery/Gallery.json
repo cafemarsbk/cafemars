@@ -2,65 +2,67 @@
   "title": "Gallery",
   "photoentry": [
     {
-      "photo":"/photos/jellolives far.jpg",
-      "description":"gallery image"
+      "photo": "/photos/jellolives far.jpg",
+      "photographer": "",
+      "description": "",
+      "alt": "Olives"
     },
     {
-      "photo":"/photos/blood orange drizzle.jpg",
-      "description":"gallery image"
+      "photo": "/photos/blood orange drizzle.jpg",
+      "description": "Delicious ice cream",
+      "alt": "Ice Cream"
     },
     {
-      "photo":"/photos/parma bass.jpg",
-      "description":"gallery image"
+      "photo": "/photos/parma bass.jpg",
+      "alt": "gallery image"
     },
     {
-      "photo":"/photos/sonic blue neon.jpg",
-      "description":"gallery image"
+      "photo": "/photos/sonic blue neon.jpg",
+      "alt": "Blue Cocktail"
     },
     {
-      "photo":"/photos/monkey bread.jpg",
-      "description":"gallery image"
+      "photo": "/photos/monkey bread.jpg",
+      "alt": "gallery image"
     },
     {
-      "photo":"/photos/pancake half.jpg",
-      "description":"gallery image"
+      "photo": "/photos/pancake half.jpg",
+      "alt": "gallery image"
     },
     {
-      "photo":"/photos/trop fruit far.jpg",
-      "description":"gallery image"
+      "photo": "/photos/trop fruit far.jpg",
+      "alt": "gallery image"
     },
     {
-      "photo":"/photos/isola bella purple.jpg",
-      "description":"gallery image"
+      "photo": "/photos/isola bella purple.jpg",
+      "alt": "gallery image"
     },
     {
-      "photo":"/photos/waves.jpg",
-      "description":"gallery image"
+      "photo": "/photos/waves.jpg",
+      "alt": "gallery image"
     },
     {
-      "photo":"/photos/ribs parm far.jpg",
-      "description":"gallery image"
+      "photo": "/photos/ribs parm far.jpg",
+      "alt": "gallery image"
     },
     {
-      "photo":"/photos/gibson splash.jpg",
-      "description":"gallery image"
+      "photo": "/photos/gibson splash.jpg",
+      "alt": "gallery image"
     },
     {
-      "photo":"/photos/genovese.jpg",
-      "description":"gallery image"
+      "photo": "/photos/genovese.jpg",
+      "alt": "gallery image"
     },
     {
-      "photo":"/photos/almond ice cream.jpg",
-      "description":"gallery image"
+      "photo": "/photos/almond ice cream.jpg",
+      "alt": "gallery image"
     },
     {
-      "photo":"/photos/lazy susan blak.jpg",
-      "description":"gallery image"
+      "photo": "/photos/lazy susan blak.jpg",
+      "alt": "gallery image"
     },
     {
-      "photo":"/photos/lemon buc close.jpg",
-      "description":"gallery image"
+      "photo": "/photos/lemon buc close.jpg",
+      "alt": "gallery image"
     }
   ]
 }
-

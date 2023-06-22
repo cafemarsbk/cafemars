@@ -141,13 +141,18 @@ export default defineConfig({
                 required: true,
               },
               {
-                label: "Mouseover Text",
-                name: "mouseovertext",
+                label: "Photographer",
+                name: "photographer",
+                type: "string",
+              },
+              {
+                label: "Description",
+                name: "description",
                 type: "string",
               },
               {
                 label: "Accessibility Description",
-                name: "description",
+                name: "alt",
                 type: "string",
                 required: true,
               },
@@ -155,7 +160,7 @@ export default defineConfig({
             list: true,
             ui: {
               itemProps: (item) => {
-                return { label: item?.mouseovertext };
+                return { label: item?.alt };
               },
             },
           },
@@ -177,6 +182,16 @@ export default defineConfig({
             label: "Maintenance Mode",
             name: "maintenanceMode",
             type: "boolean",
+          },
+          {
+            label: "Header Image",
+            name: "headerImage",
+            type: "image",
+          },
+          {
+            label: "Hero Image",
+            name: "heroImage",
+            type: "image",
           },
         ],
       },

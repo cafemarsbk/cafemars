@@ -1,0 +1,24 @@
+---
+import { Image } from "@astrojs/image/components";
+
+const { src, alt, description, photographer } = Astro.props;
+---
+
+<div class="col-span-1 overflow-hidden relative">
+  {
+    (photographer || description) && (
+      <div class="p-4 absolute inset-0 z-10 bg-black text-center text-white flex flex-col justify-end opacity-0 hover:opacity-100 bg-opacity-30 duration-300">
+        <div class="font-bold text-2xl text-left">{photographer}</div>
+
+        <div class="text-lg text-left">{description}</div>
+      </div>
+    )
+  }
+  <Image
+    src={src}
+    width={600}
+    aspectRatio="9:16"
+    alt={alt}
+    class="group-hover:scale-110 transition duration-300 ease-in-out"
+  />
+</div>

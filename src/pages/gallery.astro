@@ -5,6 +5,7 @@ import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import { Image } from "@astrojs/image/components";
 import Banner from "@components/banner.astro";
+import ImageMouseover from "@components/ImageMouseover.astro";
 
 // Fetch gallery items from the collection
 const galleryItems = await getCollection("gallery");
@@ -19,14 +20,7 @@ const galleryItems = await getCollection("gallery");
       {
         galleryItems[0].data.photoentry.map((photo) => (
           <>
-            <div class="col-span-1">
-              <Image
-                src={photo.photo}
-                width={600}
-                aspectRatio="9:16"
-                alt={photo.description}
-              />
-            </div>
+            <ImageMouseover src={photo.photo} alt={photo.alt} description={photo.description} photographer={photo.photographer}/>
           </>
         ))
       }
