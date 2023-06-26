@@ -21,6 +21,12 @@ module.exports = {
       animation: {
         "pasta-rain": "rain 1000s linear infinite",
       },
+      colors: {
+        "custom-green": "#00b74f",
+        "custom-pink": "#FF3EB5",
+        "custom-yellow": "#FFE900",
+        "custom-blue": "#0072CE",
+      },
     },
   },
   plugins: [
@@ -55,26 +61,26 @@ module.exports = {
           "font-display": "auto",
         },
         h1: {
-          "font-family": "Cafe Mars",
-          "font-weight": "400",
+          "font-size": "2.25rem",
+          "line-height": "2.5rem",
           "text-transform": "uppercase",
           "letter-spacing": "2px",
         },
         h2: {
-          "font-family": "Cafe Mars",
-          "font-weight": "400",
+          "font-size": "1.875rem",
+          "line-height": "2.25rem",
           "text-transform": "uppercase",
           "letter-spacing": "2px",
         },
         h3: {
-          "font-family": "Cafe Mars",
-          "font-weight": "400",
+          "font-size": "1.5rem",
+          "line-height": "2rem",
           "text-transform": "uppercase",
           "letter-spacing": "2px",
         },
-        h3: {
-          "font-family": "Cafe Mars",
-          "font-weight": "400",
+        h4: {
+          "font-size": "1.25rem",
+          "line-height": "1.75rem",
           "text-transform": "uppercase",
           "letter-spacing": "2px",
         },

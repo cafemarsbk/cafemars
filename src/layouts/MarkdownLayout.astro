@@ -1,0 +1,115 @@
+---
+// Imports
+import { SEO } from "astro-seo";
+import Footer from "@components/footer.astro";
+import Navbar from "@components/navbar/navbar.astro";
+import Container from "@components/container.astro";
+import "@fontsource/inter/variable.css";
+import Banner from "@components/banner.astro";
+
+// Props
+export interface Props {
+  title: string;
+}
+
+// Variables
+const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
+
+const resolvedImageWithDomain = new URL(
+  "/opengraph.jpg",
+  Astro.site
+).toString();
+
+const { title } = Astro.props;
+
+const makeTitle = title
+  ? title + " | " + "Cafe Mars"
+  : "Cafe Mars - An Unusual Italian Restaraunt";
+
+const { frontmatter } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon_amzzwi.ico" />
+    <meta name="generator" content={Astro.generator} />
+
+    <!-- SEO -->
+    <SEO
+      title={makeTitle}
+      description="Cafe Mars - An Unusual Italian Restaraunt"
+      canonical={canonicalURL}
+      openGraph={{
+        basic: {
+          url: canonicalURL,
+          type: "website",
+          title: `Cafe Mars - An Unusual Italian Restaraunt`,
+          image: resolvedImageWithDomain,
+        },
+        image: {
+          alt: "Cafe Mars Home Page",
+        },
+      }}
+    />
+  </head>
+  <body class="text-black font-helevetica">
+    <!-- Navbar -->
+    <Navbar />
+
+    <!-- Main content -->
+    <Banner bannerTitle={frontmatter.title} />
+    <Container>
+      <img src={frontmatter.mainImage} alt="" class="w-4/5" />
+
+      <article class="prose lg:prose-xl pt-4 font-normal">
+        <slot />
+      </article>
+    </Container>
+
+    <!-- Footer -->
+    <Footer />
+
+    <!-- Mouse circle -->
+    <div
+      id="mouse-circle"
+      class="fixed w-12 h-12 ml-6 mt-6 pointer-events-none mix-blend-difference rounded-full bg-black backdrop-invert z-50">
+    </div>
+
+    <!-- Global styles -->
+    <style is:global>
+      /* Improve Page speed */
+      /* https://css-tricks.com/almanac/properties/c/content-visibility/ */
+      img {
+        content-visibility: auto;
+      }
+    </style>
+
+    <!-- JavaScript -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        let mousePosX = 0,
+          mousePosY = 0,
+          mouseCircle = document.getElementById("mouse-circle");
+        document.onmousemove = (e) => {
+          mousePosX = e.pageX;
+          mousePosY = e.pageY;
+        };
+        let delay = 12,
+          revisedMousePosX = 0,
+          revisedMousePosY = 0;
+        function delayMouseFollow() {
+          requestAnimationFrame(delayMouseFollow);
+          revisedMousePosX += (mousePosX - revisedMousePosX) / delay;
+          revisedMousePosY += (mousePosY - revisedMousePosY) / delay;
+          mouseCircle.style.top = revisedMousePosY + "px";
+          mouseCircle.style.left = revisedMousePosX + "px";
+        }
+        delayMouseFollow();
+      });
+    </script>
+  </body>
+</html>
