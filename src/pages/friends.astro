@@ -1,0 +1,49 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import Banner from "@components/banner.astro";
+import { getEntry } from "astro:content";
+
+const friendsEntry = await getEntry("friends", "entry");
+const friendsList = friendsEntry.data.item;
+const colorClasses = ["#00b74f", "#FF3EB5", "#FFE900", "#0072CE"];
+---
+
+<Layout title="Friends">
+  <Banner bannerTitle="Friends" />
+  <Container>
+    <div class="grid grid-cols-2 gap-1 pb-16 items-center">
+      {
+        friendsList.map((friend, index) => (
+          <>
+            <div
+              class="bg-white col-span-1 border-2 border-solid radius-1 p-5 rounded-3xl even:-rotate-1 odd:rotate-1 h-fit"
+              style={"border-color: " + colorClasses[index % 4] + ";"}>
+              <div class="flex p-4 flex-col">
+                <div class="relative w-full pb-4 overflow-hidden">
+                  <div class="max-w-full min-h-full">
+                    <img class="min-h-full w-full" src={friend.image} alt="" />
+                  </div>
+                </div>
+                <div class="px-1">
+                  <h3 class="lowercase font-bold text-3xl pb-2">
+                    {friend.title}
+                  </h3>
+                  <p class="pb-2 text-lg">{friend.details}</p>
+                  {friend.links &&
+                    friend.links.map((link) => (
+                      <a
+                        class="pr-2 box-border text-[#00b74f] text-lg underline underline-offset-4"
+                        href={link.url}>
+                        {link.name}
+                      </a>
+                    ))}
+                </div>
+              </div>
+            </div>
+          </>
+        ))
+      }
+    </div>
+  </Container>
+</Layout>

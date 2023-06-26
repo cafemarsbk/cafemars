@@ -1,0 +1,28 @@
+{
+  "navigationItem": [
+    {
+      "name": "menus",
+      "link": "/menu/main"
+    },
+    {
+      "name": "gallery",
+      "link": "/gallery"
+    },
+    {
+      "name": "contact",
+      "link": "/contact"
+    },
+    {
+      "name": "friends",
+      "link": "/friends"
+    },
+    {
+      "name": "about",
+      "link": "/about"
+    }
+  ],
+  "bookingLink": {
+    "name": "Book",
+    "link": "https://exploretock.com/cafemarsbk"
+  }
+}

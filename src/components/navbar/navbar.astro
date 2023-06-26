@@ -4,65 +4,51 @@ import { getEntry } from "astro:content";
 import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 
 const settingsEntry = await getEntry("sitesettings", "entry");
-const isInMaintenance = settingsEntry?.data.maintenanceMode;
+const navigationEntry = await getEntry("navbar", "entry");
 
-const menuitems = isInMaintenance
+const menuitems = settingsEntry.data.maintenanceMode
   ? []
-  : [
-      {
-        title: "menus",
-        path: "/menu/main",
-      },
-      {
-        title: "gallery",
-        path: "/gallery",
-      },
-      {
-        title: "contact",
-        path: "/contact",
-      },
-    ];
+  : navigationEntry?.data.navigationItem;
 ---
 
-<Container>
-  <header class="flex flex-col lg:flex-row justify-between items-center">
-    <Astronav>
-      <div class="flex w-full lg:w-auto items-center justify-between py-1">
-        <a href="/" class="text-lg">
-          <div class="w-56">
-            <img src={settingsEntry?.data.headerImage} alt="" />
-          </div>
-        </a>
-        <div class="block lg:hidden">
-          <a
-            href="https://exploretock.com/cafemarsbk"
-            class="text-white bg-[#00b74f] hover:bg-[#00b74f] focus:ring-4 font-medium rounded-full text-lg px-5 py-2.5 mr-2 mb-2"
-            >Book</a
-          >
-          <MenuIcon class="w-4 h-4" />
+<header
+  class="flex flex-col lg:flex-row justify-between items-center px-4 py-1 max-h-40">
+  <Astronav>
+    <div class="flex w-full lg:w-auto items-center justify-between py-1">
+      <a href="/" class="text-lg">
+        <div class="w-40 max-h-40">
+          <img src={settingsEntry?.data.headerImage} alt="" />
         </div>
+      </a>
+      <div class="block lg:hidden">
+        <a
+          href={navigationEntry?.data.bookingLink.link}
+          class="text-white bg-[#00b74f] hover:bg-[#00b74f] focus:ring-4 font-medium rounded-full text-lg px-5 py-2.5 mr-2 mb-2"
+          >{navigationEntry?.data.bookingLink.name}</a
+        >
+        <MenuIcon class="w-4 h-4" />
       </div>
+    </div>
 
-      <MenuItems class="hidden w-full lg:w-auto mt-2 lg:flex lg:mt-0 py-1">
-        <ul class="flex flex-col lg:flex-row lg:gap-3">
-          {
-            menuitems.map((item, index) => (
-              <>
-                <li>
-                  <a href={item.path} class="flex lg:px-3 py-2 text-lg">
-                    {item.title}
-                  </a>
-                </li>
-              </>
-            ))
-          }
-          <a
-            href="https://exploretock.com/cafemarsbk"
-            class="hidden lg:list-item text-white bg-[#00b74f] hover:bg-[#00b74f] focus:ring-4 font-medium rounded-full text-lg px-5 py-2.5 mr-2 mb-2"
-            >Book</a
-          >
-        </ul>
-      </MenuItems>
-    </Astronav>
-  </header>
-</Container>
+    <MenuItems class="hidden w-full lg:w-auto mt-2 lg:flex lg:mt-0 py-1">
+      <ul class="flex flex-col lg:flex-row lg:gap-3">
+        {
+          menuitems.map((item) => (
+            <>
+              <li>
+                <a href={item.link} class="flex lg:px-3 py-2 text-lg">
+                  {item.name}
+                </a>
+              </li>
+            </>
+          ))
+        }
+        <a
+          href={navigationEntry?.data.bookingLink.link}
+          class="text-white bg-[#00b74f] hover:bg-[#00b74f] focus:ring-4 font-medium rounded-full text-lg px-5 py-2.5 mr-2 mb-2"
+          >{navigationEntry?.data.bookingLink.name}</a
+        >
+      </ul>
+    </MenuItems>
+  </Astronav>
+</header>

@@ -246,14 +246,277 @@ export default defineConfig({
           },
         ],
       },
+      {
+        name: "navbar",
+        label: "Navigation Bar",
+        path: "src/content/navbar",
+        format: "json",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        fields: [
+          {
+            label: "Navigation Item",
+            name: "navigationItem",
+            type: "object",
+            fields: [
+              {
+                label: "Display Name",
+                name: "name",
+                type: "string",
+                required: true,
+              },
+              {
+                label: "Link",
+                name: "link",
+                type: "string",
+                required: true,
+              },
+            ],
+            list: true,
+            ui: {
+              itemProps: (item) => {
+                return { label: item?.name };
+              },
+            },
+          },
+          {
+            label: "Booking Link",
+            name: "bookingLink",
+            type: "object",
+            fields: [
+              {
+                label: "Name",
+                name: "name",
+                type: "string",
+                required: true,
+              },
+              {
+                label: "Link",
+                name: "link",
+                type: "string",
+                required: true,
+              },
+            ],
+          },
+        ],
+      },
+      {
+        name: "footer",
+        label: "Footer",
+        path: "src/content/footer",
+        format: "json",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        fields: [
+          {
+            label: "Footer Column",
+            name: "footerColumn",
+            type: "object",
+            fields: [
+              {
+                label: "Column Title",
+                name: "title",
+                type: "string",
+                required: true,
+              },
+              {
+                label: "Column Items",
+                name: "items",
+                type: "object",
+                fields: [
+                  {
+                    label: "Item Name",
+                    name: "name",
+                    type: "string",
+                    required: true,
+                  },
+                  {
+                    label: "Item Link",
+                    name: "link",
+                    type: "string",
+                  },
+                  {
+                    label: "Link Type",
+                    name: "type",
+                    type: "string",
+                    options: [
+                      {
+                        label: "Telephone",
+                        value: "tel:",
+                      },
+                      {
+                        label: "Email",
+                        value: "mailto:",
+                      },
+                      {
+                        label: "Other",
+                        value: "",
+                      },
+                    ],
+                  },
+                ],
+                list: true,
+                ui: {
+                  itemProps: (item) => {
+                    return { label: item?.name };
+                  },
+                  min: 1,
+                },
+              },
+            ],
+            list: true,
+            ui: {
+              itemProps: (item) => {
+                return { label: item?.title };
+              },
+            },
+          },
+        ],
+      },
+      {
+        format: "json",
+        label: "Friends",
+        name: "friends",
+        path: "src/content/friends",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        fields: [
+          {
+            type: "object",
+            name: "item",
+            label: "Item",
+            list: true,
+            ui: {
+              itemProps: (item) => {
+                return { label: item?.title };
+              },
+            },
+            fields: [
+              {
+                type: "string",
+                name: "title",
+                label: "Title",
+              },
+              {
+                type: "image",
+                name: "image",
+                label: "Image",
+              },
+              {
+                type: "string",
+                name: "details",
+                label: "Details",
+                ui: {
+                  component: "textarea",
+                },
+              },
+              {
+                type: "object",
+                name: "links",
+                label: "Links",
+                list: true,
+                fields: [
+                  {
+                    type: "string",
+                    name: "name",
+                    label: "Name",
+                  },
+                  {
+                    type: "string",
+                    name: "url",
+                    label: "URL",
+                  },
+                  {
+                    label: "Link Type",
+                    name: "type",
+                    type: "string",
+                    options: [
+                      {
+                        label: "Telephone",
+                        value: "tel:",
+                      },
+                      {
+                        label: "Email",
+                        value: "mailto:",
+                      },
+                      {
+                        label: "Other",
+                        value: "",
+                      },
+                    ],
+                  },
+                ],
+                ui: {
+                  itemProps: (item) => {
+                    return { label: item?.name };
+                  },
+                },
+              },
+            ],
+          },
+        ],
+      },
+      {
+        name: "about",
+        label: "About",
+        format: "md",
+        path: "src/pages",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        fields: [
+          {
+            label: "Layout",
+            name: "layout",
+            type: "string",
+            options: [
+              {
+                label: "Default",
+                value: "../layouts/MarkdownLayout.astro",
+              },
+            ],
+          },
+          {
+            label: "Hide Page",
+            name: "draft",
+            type: "boolean",
+          },
+          {
+            label: "Title",
+            name: "title",
+            type: "string",
+            required: true,
+            isTitle: true,
+          },
+          {
+            label: "Main Image",
+            name: "mainImage",
+            type: "image",
+          },
+          {
+            label: "Main Content",
+            name: "mainContent",
+            type: "rich-text",
+            required: true,
+            isBody: true,
+          },
+        ],
+      },
     ],
   },
 });
-
-// Monday: Closed
-// Tuesday: Closed
-// Wednesday: 5:30pm - 9pm
-// Thursday: 5:30pm - 9pm
-// Friday: 5:30pm - 9pm
-// Saturday: 5:30pm - 10pm
-// Sunday: 3pm - 6:30pm

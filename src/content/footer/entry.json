@@ -1,0 +1,93 @@
+{
+  "footerColumn": [
+    {
+      "title": "Links",
+      "items": [
+        {
+          "name": "About",
+          "link": "/about",
+          "type": ""
+        },
+        {
+          "name": "Menus",
+          "link": "/menu/main",
+          "type": ""
+        },
+        {
+          "name": "Gallery",
+          "link": "/gallery",
+          "type": ""
+        },
+        {
+          "name": "Jobs And Careers",
+          "link": "/jobs",
+          "type": ""
+        },
+        {
+          "name": "Friends",
+          "link": "/friends",
+          "type": ""
+        }
+      ]
+    },
+    {
+      "title": "Opening Times",
+      "items": [
+        {
+          "name": "Monday: Closed"
+        },
+        {
+          "name": "Tuesday: Closed"
+        },
+        {
+          "name": "Wednesday: 5:30pm - 9pm"
+        },
+        {
+          "name": "Thursday: 5:30pm - 9pm"
+        },
+        {
+          "name": "Friday: 5:30pm - 9pm"
+        },
+        {
+          "name": "Saturday: 5:30pm - 10pm"
+        },
+        {
+          "name": "Sunday: 3pm - 6pm"
+        }
+      ]
+    },
+    {
+      "title": "Contact",
+      "items": [
+        {
+          "name": "Location: 272 3rd Avenue, Brooklyn, NY 11215",
+          "link": "https://goo.gl/maps/6aeo3Jv2ciESyAkSA",
+          "type": ""
+        },
+        {
+          "name": "Phone: +1 (347) 987 4225",
+          "link": "3479874225",
+          "type": "tel:"
+        },
+        {
+          "name": "Mail: info@cafemarsbk.com",
+          "link": "info@cafemarsbk.com",
+          "type": "mailto:"
+        },
+        {
+          "name": "Instagram: @cafemarsbk",
+          "link": "https://www.instagram.com/cafemarsbk/",
+          "type": ""
+        }
+      ]
+    },
+    {
+      "title": "Café Mars",
+      "items": [
+        {
+          "name": "An Unusual Italian Restaraunt"
+        }
+      ]
+    }
+  ]
+}
