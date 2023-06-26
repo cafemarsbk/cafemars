@@ -10,12 +10,12 @@ export function onRequest({ request }, next) {
     }
   }
 
-  if (url.pathname !== "/") {
-    const lastPath = url.pathname.match(/[^/]+$/)[0];
-    if (!sitesettings[lastPath]) {
-      throw Error("Page not found");
-    }
-  }
+  // if (url.pathname !== "/") {
+  //   const lastPath = url.pathname.match(/[^/]+$/)[0];
+  //   if (!sitesettings[lastPath]) {
+  //     throw Error("Page not found");
+  //   }
+  // }
   // return a Response or the result of calling `next()`
   return next();
 }
