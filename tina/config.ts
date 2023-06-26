@@ -193,6 +193,31 @@ export default defineConfig({
             name: "heroImage",
             type: "image",
           },
+          {
+            label: "Menus",
+            name: "main",
+            type: "boolean",
+          },
+          {
+            label: "Gallery",
+            name: "gallery",
+            type: "boolean",
+          },
+          {
+            label: "Contact",
+            name: "contact",
+            type: "boolean",
+          },
+          {
+            label: "Friends",
+            name: "friends",
+            type: "boolean",
+          },
+          {
+            label: "About",
+            name: "about",
+            type: "boolean",
+          },
         ],
       },
       {

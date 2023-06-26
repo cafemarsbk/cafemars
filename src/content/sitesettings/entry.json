@@ -1,5 +1,10 @@
 {
   "maintenanceMode": false,
   "headerImage": "/photos/CafeMars_-_Logos-01_pmmvt1.png",
-  "heroImage": "/photos/CafeMars_-_Logos-01_pmmvt1.png"
+  "heroImage": "/photos/CafeMars_-_Logos-01_pmmvt1.png",
+  "main": true,
+  "gallery": true,
+  "contact": true,
+  "friends": true,
+  "about": true
 }

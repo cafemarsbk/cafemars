@@ -6,6 +6,7 @@ import Navbar from "@components/navbar/navbar.astro";
 import Container from "@components/container.astro";
 import "@fontsource/inter/variable.css";
 import Banner from "@components/banner.astro";
+import { Image } from "@astrojs/image/components";
 
 // Props
 export interface Props {
@@ -63,9 +64,14 @@ const { frontmatter } = Astro.props;
     <!-- Main content -->
     <Banner bannerTitle={frontmatter.title} />
     <Container>
-      <img src={frontmatter.mainImage} alt="" class="w-4/5" />
-
-      <article class="prose lg:prose-xl pt-4 font-normal">
+      <Image
+        src={frontmatter.mainImage}
+        alt=""
+        class="w-4/5"
+        width={1600}
+        aspectRatio="16:9"
+      />
+      <article class="prose lg:prose-xl py-16 font-normal">
         <slot />
       </article>
     </Container>

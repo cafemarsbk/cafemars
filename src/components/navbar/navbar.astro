@@ -5,10 +5,11 @@ import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 
 const settingsEntry = await getEntry("sitesettings", "entry");
 const navigationEntry = await getEntry("navbar", "entry");
+const navList = navigationEntry?.data.navigationItem.filter(
+  (item) => !settingsEntry[settingsEntry.data[item.link.match(/[^/]+$/)[0]]]
+);
 
-const menuitems = settingsEntry.data.maintenanceMode
-  ? []
-  : navigationEntry?.data.navigationItem;
+const menuitems = settingsEntry.data.maintenanceMode ? [] : navList;
 ---
 
 <header
