@@ -6,5 +6,5 @@
   "gallery": true,
   "contact": true,
   "friends": true,
-  "about": true
+  "about": false
 }
