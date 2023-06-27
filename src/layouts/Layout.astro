@@ -101,6 +101,7 @@ const makeTitle = title
 
         // Add this code snippet to detect mouse hover over links
         const links = document.querySelectorAll("a");
+        const body = document.querySelector("body");
         links.forEach((link) => {
           link.addEventListener("mouseenter", () => {
             mouseCircle.classList.remove("md:cursor-invert");
@@ -110,6 +111,8 @@ const makeTitle = title
             mouseCircle.classList.remove("md:cursor-link-hover");
             mouseCircle.classList.add("md:cursor-invert");
           });
+          link.classList.add("hover:cursor-none");
+          body.classList.add("cursor-none");
         });
       });
     </script>

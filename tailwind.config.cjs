@@ -61,6 +61,7 @@ module.exports = {
           "pointer-events": "none",
           "mix-blend-mode": "difference",
           "z-index": 15000,
+          transform: "translate(-50%, -50%)",
         },
         ".cursor-link-hover": {
           width: "4rem",
@@ -72,6 +73,7 @@ module.exports = {
           position: "fixed",
           "pointer-events": "none",
           "z-index": 15000,
+          transform: "translate(-50%, -50%)",
         },
       });
       addBase({
@@ -85,11 +87,13 @@ module.exports = {
         h1: {
           "font-size": "2.25rem",
           "line-height": "2.5rem",
+          "font-family": "Cafe Mars",
           "text-transform": "uppercase",
           "letter-spacing": "2px",
         },
         h2: {
           "font-size": "1.875rem",
+          "font-family": "Cafe Mars",
           "line-height": "2.25rem",
           "text-transform": "uppercase",
           "letter-spacing": "2px",
@@ -97,12 +101,14 @@ module.exports = {
         h3: {
           "font-size": "1.5rem",
           "line-height": "2rem",
+          "font-family": "Cafe Mars",
           "text-transform": "uppercase",
           "letter-spacing": "2px",
         },
         h4: {
           "font-size": "1.25rem",
           "line-height": "1.75rem",
+          "font-family": "Cafe Mars",
           "text-transform": "uppercase",
           "letter-spacing": "2px",
         },

@@ -495,7 +495,7 @@ export default defineConfig({
       },
       {
         name: "about",
-        label: "About",
+        label: "About $ FAQ",
         format: "md",
         path: "src/pages",
         ui: {
