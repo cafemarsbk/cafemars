@@ -65,7 +65,7 @@ const makeTitle = title
     <!-- Mouse circle -->
     <div
       id="mouse-circle"
-      class="cursor-invert transition-[width] duration-700">
+      class="md:cursor-invert md:transition-[width] duration-700">
     </div>
 
     <!-- Global styles -->
@@ -103,12 +103,12 @@ const makeTitle = title
         const links = document.querySelectorAll("a");
         links.forEach((link) => {
           link.addEventListener("mouseenter", () => {
-            mouseCircle.classList.remove("cursor-invert");
-            mouseCircle.classList.add("cursor-link-hover");
+            mouseCircle.classList.remove("md:cursor-invert");
+            mouseCircle.classList.add("md:cursor-link-hover");
           });
           link.addEventListener("mouseleave", () => {
-            mouseCircle.classList.remove("cursor-link-hover");
-            mouseCircle.classList.add("cursor-invert");
+            mouseCircle.classList.remove("md:cursor-link-hover");
+            mouseCircle.classList.add("md:cursor-invert");
           });
         });
       });
