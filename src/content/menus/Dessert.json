@@ -6,6 +6,11 @@
       "pastaImage": "/photos/snacks_o8cu6x.svg",
       "menuItems": [
         {
+          "name": "orange Italian ice",
+          "description": "dolce di bay, pistachio crumble",
+          "price": 11
+        },
+        {
           "name": "fresh strawberries ",
           "description": "mint, rosé zabaglione",
           "price": 12
@@ -13,11 +18,6 @@
         {
           "name": "olive marble cake",
           "description": "amaro dried plums, whipped cream",
-          "price": 11
-        },
-        {
-          "name": "orange Italian ice",
-          "description": "dolce di bay, pistachio crumble",
           "price": 11
         }
       ]
