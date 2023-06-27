@@ -57,7 +57,7 @@ const { frontmatter } = Astro.props;
       }}
     />
   </head>
-  <body class="text-black font-helevetica">
+  <body class="text-black font-helevetica cursor-none">
     <!-- Navbar -->
     <Navbar />
 
@@ -73,6 +73,21 @@ const { frontmatter } = Astro.props;
       />
       <article class="prose lg:prose-xl py-16 font-normal">
         <slot />
+      </article>
+
+      {
+        frontmatter.faqImage && (
+          <Image
+            src={frontmatter.faqImage}
+            alt=""
+            class="w-4/5"
+            width={1600}
+            aspectRatio="16:9"
+          />
+        )
+      }
+      <article class="prose lg:prose-xl py-16 font-normal">
+        {frontmatter.faqContent}
       </article>
     </Container>
 
@@ -118,6 +133,7 @@ const { frontmatter } = Astro.props;
 
         // Add this code snippet to detect mouse hover over links
         const links = document.querySelectorAll("a");
+        const body = document.querySelector("body");
         links.forEach((link) => {
           link.addEventListener("mouseenter", () => {
             mouseCircle.classList.remove("md:cursor-invert");
@@ -127,6 +143,8 @@ const { frontmatter } = Astro.props;
             mouseCircle.classList.remove("md:cursor-link-hover");
             mouseCircle.classList.add("md:cursor-invert");
           });
+          link.classList.add("hover:cursor-none");
+          body.classList.add("cursor-none");
         });
       });
     </script>
