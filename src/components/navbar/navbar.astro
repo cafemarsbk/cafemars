@@ -9,8 +9,6 @@ const navList = navigationEntry?.data.navigationItem.filter(
   (item) => settingsEntry.data[item.link.match(/[^/]+$/)[0]]
 );
 
-console.log(navList);
-
 const menuitems = settingsEntry.data.maintenanceMode ? [] : navList;
 ---
 

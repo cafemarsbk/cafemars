@@ -82,7 +82,7 @@ const { frontmatter } = Astro.props;
     <!-- Mouse circle -->
     <div
       id="mouse-circle"
-      class="fixed w-12 h-12 ml-6 mt-6 pointer-events-none mix-blend-difference rounded-full bg-black backdrop-invert z-50">
+      class="cursor-invert transition-[width] duration-700">
     </div>
 
     <!-- Global styles -->
@@ -101,8 +101,8 @@ const { frontmatter } = Astro.props;
           mousePosY = 0,
           mouseCircle = document.getElementById("mouse-circle");
         document.onmousemove = (e) => {
-          mousePosX = e.pageX;
-          mousePosY = e.pageY;
+          mousePosX = e.clientX;
+          mousePosY = e.clientY;
         };
         let delay = 12,
           revisedMousePosX = 0,
@@ -115,6 +115,19 @@ const { frontmatter } = Astro.props;
           mouseCircle.style.left = revisedMousePosX + "px";
         }
         delayMouseFollow();
+
+        // Add this code snippet to detect mouse hover over links
+        const links = document.querySelectorAll("a");
+        links.forEach((link) => {
+          link.addEventListener("mouseenter", () => {
+            mouseCircle.classList.remove("cursor-invert");
+            mouseCircle.classList.add("cursor-link-hover");
+          });
+          link.addEventListener("mouseleave", () => {
+            mouseCircle.classList.remove("cursor-link-hover");
+            mouseCircle.classList.add("cursor-invert");
+          });
+        });
       });
     </script>
   </body>
