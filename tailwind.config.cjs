@@ -51,6 +51,28 @@ module.exports = {
         ".font-cafemars": {
           fontFamily: "Cafe Mars",
         },
+        ".cursor-invert": {
+          width: "3rem",
+          height: "3rem",
+          background: "#fff",
+          border: "2px solid #fff",
+          "border-radius": "50%",
+          position: "fixed",
+          "pointer-events": "none",
+          "mix-blend-mode": "difference",
+          "z-index": 15000,
+        },
+        ".cursor-link-hover": {
+          width: "4rem",
+          height: "4rem",
+          background: "transparent",
+          border: "2px solid black",
+          "border-color": "black",
+          "border-radius": "50%",
+          position: "fixed",
+          "pointer-events": "none",
+          "z-index": 15000,
+        },
       });
       addBase({
         "@font-face": {
