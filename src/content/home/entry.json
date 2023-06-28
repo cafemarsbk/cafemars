@@ -1,0 +1,17 @@
+{
+  "about": [
+    {
+      "body": "Café Mars is an unusual Italian restaurant. We love vegetables, seafood, pasta, and ice cream. Tradition is important to us, but so is fun. Come get weird with us!\n",
+      "button": "About",
+      "link": "/about"
+    }
+  ],
+  "image": "/photos/Cafe Mars Facade Black.png",
+  "hoverImage": "/photos/Cafe Mars Facade inverse copy.jpg",
+  "hideAbout": true,
+  "hideDetails": true,
+  "hideCTA": true,
+  "details": [],
+  "cta": [],
+  "title": "Home"
+}

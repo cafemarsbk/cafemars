@@ -1,8 +1,69 @@
 ---
 import Hero from "@components/hero.astro";
+import Homeabout from "@components/homeabout.astro";
+import Homelinks from "@components/homelinks.astro";
+import Homecta from "@components/homecta.astro";
 import Layout from "@layouts/Layout.astro";
+import { getEntry } from "astro:content";
+
+function processJson(jsonData) {
+  let about = jsonData.about;
+  about = about.filter((obj) => Object.keys(obj).length !== 0);
+  let details = jsonData.details;
+  details = details.filter((obj) => Object.keys(obj).length !== 0);
+  let cta = jsonData.cta;
+  cta = cta.filter((obj) => Object.keys(obj).length !== 0);
+
+  if (jsonData.hideAbout) {
+    about = [];
+  }
+
+  if (jsonData.hideDetails) {
+    details = [];
+  }
+
+  if (jsonData.hideCTA) {
+    cta = [];
+  }
+
+  return { about, details, cta };
+}
+
+const homeEntry = await getEntry("home", "entry");
+const data = homeEntry.data;
+
+const { about, details, cta } = processJson(data);
 ---
 
-<Layout title="Home">
+<Layout title={data.title}>
   <Hero />
+  {
+    about &&
+      about.map((AS) => (
+        <>
+          <Homeabout body={AS.body} button={AS.button} link={AS.link} />
+        </>
+      ))
+  }
+  {
+    details.length > 1 && (
+      <>
+        <Homelinks details={details} />
+      </>
+    )
+  }
+  {
+    cta &&
+      cta.map((CS) => (
+        <>
+          <Homecta
+            link={CS.link}
+            button={CS.button}
+            heading={CS.heading}
+            body={CS.body}
+            image={CS.image}
+          />
+        </>
+      ))
+  }
 </Layout>

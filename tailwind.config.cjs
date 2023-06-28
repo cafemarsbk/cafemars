@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 const defaultTheme = require("tailwindcss/defaultTheme");
 const plugin = require("tailwindcss/plugin");
+const jsonContent = require("./src/content/home/entry.json");
+
+const imageSetting = `url(${jsonContent.image}) center center / cover no-repeat`;
+const hoverImageSetting = `url(${jsonContent.hoverImage}) center center / cover no-repeat`;
 
 module.exports = {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
@@ -34,12 +38,10 @@ module.exports = {
     plugin(function ({ addUtilities, addBase }) {
       addUtilities({
         ".hero-normal": {
-          background:
-            "url('/photos/Cafe Mars Facade Black.png') center center / cover no-repeat",
+          background: imageSetting,
         },
         ".hero-inverted": {
-          background:
-            "url('/photos/Cafe Mars Facade inverse.jpg') center center / cover no-repeat",
+          background: hoverImageSetting,
         },
         ".bg-pasta-rain": {
           background:

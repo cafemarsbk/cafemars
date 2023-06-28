@@ -1,0 +1,27 @@
+---
+import { marked } from "marked";
+
+const { link, button, body } = Astro.props;
+
+const bodyHTML = body !== null ? marked.parse(body) : "";
+---
+
+<section>
+  <div class="container mx-auto">
+    <div class="flex justify-center">
+      <div class="px-20 py-20 [&>*]:pb-4">
+        <div
+          set:html={bodyHTML}
+          class="[&>*]:pb-4 [&>p]:text-center [&>p]:text-4xl"
+        />
+        <div class="flex justify-center">
+          <a
+            href={link}
+            class="text-white bg-[#00b74f] focus:ring-4 font-medium rounded-lg text-lg px-5 py-5"
+            >{button}</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,32 @@
+---
+const { link, button, heading, body, image } = Astro.props;
+---
+
+<section>
+  <div class="w-screen bg-blue-500 text-white">
+    <div class="grid grid-cols-1 xl:grid-cols-2">
+      <div class="w-full py-20 px-20 flex items-center">
+        <div class="flex flex-col items-center [&>*]:pb-4">
+          <h2 class="text-6xl">{heading}</h2>
+          <p class="text-center">
+            {body}
+          </p>
+          <div class="flex justify-center">
+            <a
+              href={link}
+              class="text-white bg-[#00b74f] focus:ring-4 font-medium rounded-lg text-lg px-5 py-5"
+              >{button}</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="w-full">
+        <img
+          class="object-contain"
+          src={image}
+          alt=""
+        />
+      </div>
+    </div>
+  </div>
+</section>
