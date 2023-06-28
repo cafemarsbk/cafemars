@@ -34,6 +34,11 @@ export default defineConfig({
             required: true,
           },
           {
+            label: "Coming Soon",
+            name: "isDraft",
+            type: "boolean",
+          },
+          {
             label: "Picture Menu On",
             name: "pictureOrText",
             type: "boolean",
