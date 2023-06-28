@@ -283,6 +283,29 @@ export default defineConfig({
                       },
                     ],
                   },
+                  {
+                    label: "Icon",
+                    name: "icon",
+                    type: "string",
+                    options: [
+                      {
+                        label: "Instagram",
+                        value: "/instagram.svg",
+                      },
+                      {
+                        label: "Phone",
+                        value: "/phone.svg",
+                      },
+                      {
+                        label: "Email",
+                        value: "/email.svg",
+                      },
+                      {
+                        label: "Pin",
+                        value: "/location.svg",
+                      },
+                    ],
+                  },
                 ],
                 list: true,
                 ui: {

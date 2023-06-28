@@ -62,22 +62,26 @@
         {
           "name": "272 3rd Avenue, Brooklyn, NY 11215",
           "link": "https://goo.gl/maps/6aeo3Jv2ciESyAkSA",
-          "type": ""
+          "type": "",
+          "icon": "/location.svg"
         },
         {
           "name": "(347) 987 4225",
           "link": "3479874225",
-          "type": "tel:"
+          "type": "tel:",
+          "icon": "/phone.svg"
         },
         {
           "name": "info@cafemarsbk.com",
           "link": "info@cafemarsbk.com",
-          "type": "mailto:"
+          "type": "mailto:",
+          "icon": "/email.svg"
         },
         {
           "name": "@cafemarsbk",
           "link": "https://www.instagram.com/cafemarsbk/",
-          "type": ""
+          "type": "",
+          "icon": "/instagram.svg"
         }
       ]
     },

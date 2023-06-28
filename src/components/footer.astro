@@ -15,7 +15,8 @@ const listOfColumns = footerEntry.data.footerColumn;
             <ul>
               {column.items.map((item) => (
                 <>
-                  <li>
+                  <li class="flex">
+                    {item.icon && <img class="h-5 mr-1" src={item.icon} alt="" />}
                     {item.link ? (
                       <a href={item.type + item.link}>{item.name}</a>
                     ) : (
