@@ -1,0 +1,24 @@
+---
+// Imports
+import { getEntry } from "astro:content";
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import Banner from "@components/banner.astro";
+import { marked } from "marked";
+
+
+const entry = await getEntry("policies", "privacy");
+let htmlString = marked.parse(entry.data.body);
+---
+
+<Layout title={entry.data.title}>
+  <!-- Menu header -->
+  <Banner bannerTitle={entry.data.title} />
+
+  <Container>
+    <article
+      class="py-16 px-16 font-normal text-lg [&>p>a]:text-[#00b74f] [&>p]:pb-4 [&>*]:font-helevetica"
+      set:html={htmlString}
+    />
+  </Container>
+</Layout>

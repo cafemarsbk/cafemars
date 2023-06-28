@@ -755,6 +755,32 @@ export default defineConfig({
           },
         ],
       },
+      {
+        name: "policies",
+        label: "Policies",
+        path: "src/content/policies",
+        format: "json",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        fields: [
+          {
+            label: "Title",
+            name: "title",
+            type: "string",
+            required: true,
+          },
+          {
+            label: "Body",
+            name: "body",
+            type: "rich-text",
+            required: true,
+          },
+        ],
+      },
     ],
   },
 });
