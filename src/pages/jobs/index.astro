@@ -1,0 +1,39 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import Banner from "@components/banner.astro";
+import { getEntry } from "astro:content";
+
+const jobEntry = await getEntry("jobs", "entry");
+const jobsList = jobEntry.data.item;
+const colorClasses = ["#00b74f", "#FF3EB5", "#FFE900", "#0072CE"];
+---
+
+<Layout title="jobs">
+  <Banner bannerTitle="Join Us!" />
+  <Container>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-1 pb-16 items-center">
+      {
+        jobsList.map((job, index) => (
+          <>
+            <div
+              class="bg-white col-span-1 border-2 border-solid radius-1 p-5 rounded-3xl even:-rotate-1 odd:rotate-1 h-fit"
+              style={"border-color: " + colorClasses[index % 4] + ";"}>
+              <div class="flex p-4 flex-col">
+                <div class="px-1">
+                  <h3 class="font-bold text-3xl pb-2">{job.title}</h3>
+                  <p class="pb-2 text-lg">{job.description}</p>
+                  <a
+                    class="pr-2 box-border text-[#00b74f] text-lg underline underline-offset-4"
+                    href={"/jobs/" + job.link}>
+                    Read More
+                  </a>
+                </div>
+              </div>
+            </div>
+          </>
+        ))
+      }
+    </div>
+  </Container>
+</Layout>

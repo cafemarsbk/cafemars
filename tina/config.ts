@@ -495,7 +495,7 @@ export default defineConfig({
       },
       {
         name: "about",
-        label: "About $ FAQ",
+        label: "About & FAQ",
         format: "md",
         path: "src/pages",
         ui: {
@@ -539,6 +539,67 @@ export default defineConfig({
             type: "rich-text",
             required: true,
             isBody: true,
+          },
+        ],
+      },
+      {
+        format: "json",
+        label: "Job List Page",
+        name: "jobs",
+        path: "src/content/jobs",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        fields: [
+          {
+            type: "object",
+            name: "item",
+            label: "Item",
+            list: true,
+            ui: {
+              itemProps: (item) => {
+                return { label: item.title ? item.title : "Job Name" };
+              },
+            },
+            fields: [
+              {
+                type: "boolean",
+                name: "draft",
+                label: "Draft",
+              },
+              {
+                type: "string",
+                name: "title",
+                label: "Title",
+                required: true,
+              },
+              {
+                type: "image",
+                name: "image",
+                label: "Image",
+              },
+              {
+                type: "string",
+                name: "description",
+                label: "Description",
+                required: true,
+              },
+              {
+                type: "rich-text",
+                name: "extendedDescription",
+                label: "Extended Description",
+                required: true,
+              },
+              {
+                type: "string",
+                name: "link",
+                label: "Link (job name)",
+                required: true,
+              },
+            ],
           },
         ],
       },

@@ -46,7 +46,7 @@ module.exports = {
             'url("/photos/pattern_1_etafix.png"), url("/photos/pattern_2_qhgojs.png"), url("/photos/pattern_3_fqyhrc.png")',
         },
         ".font-helevetica": {
-          fontFamily: "'Helvetica', 'sans-serif'",
+          fontFamily: "Helvetica, sans-serif",
         },
         ".font-cafemars": {
           fontFamily: "Cafe Mars",

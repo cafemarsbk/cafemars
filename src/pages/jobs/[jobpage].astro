@@ -1,0 +1,35 @@
+---
+// Imports
+import { getEntry } from "astro:content";
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import { Image } from "@astrojs/image/components";
+import Banner from "@components/banner.astro";
+import { marked } from "marked";
+
+// Static paths
+export async function getStaticPaths() {
+  const jobEntries = await getEntry("jobs", "entry");
+
+  return jobEntries.data.item.map((entry) => ({
+    params: { jobpage: entry.link.toLowerCase() },
+    props: { entry },
+  }));
+}
+// Props
+const { entry } = Astro.props;
+
+let htmlString = marked.parse(entry.extendedDescription);
+---
+
+<Layout title={entry.title}>
+  <!-- Menu header -->
+  <Banner bannerTitle={entry.title} />
+
+  <Container>
+    <article
+      class="py-16 px-16 font-normal text-lg [&>p>a]:text-[#00b74f] [&>p]:pb-4"
+      set:html={htmlString}
+    />
+  </Container>
+</Layout>
