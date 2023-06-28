@@ -1,7 +1,32 @@
 {
   "openingHours": [
     {
-      "day": "Monday"
+      "details": "Monday: Closed"
+    },
+    {
+      "details": "Tuesday: Closed"
+    },
+    {
+      "details": "Wednesday: 5:30-9"
+    },
+    {
+      "details": "Thursday: 5:30-9"
+    },
+    {
+      "details": "Friday: 5:30-10"
+    },
+    {
+      "details": "Saturday: 5:30-10"
+    },
+    {
+      "details": "Sunday: 3-6:30"
     }
-  ]
+  ],
+  "address": "272 3rd Avenue Brooklyn, NY 11215",
+  "addressLink": "https://www.google.com/maps/place/Caf%C3%A9+Mars/@40.6778851,-73.9881645,17z/data=!4m15!1m9!3m8!1s0x89c25a55a099d715:0x325158bb886801a4!2s272+3rd+Ave,+Brooklyn,+NY+11215!3b1!8m2!3d40.6778851!4d-73.9859758!14m1!1BCgIgARICCAI!3m4!1s0x89c25b5a98deaf93:0x67afda1cd2daec79!8m2!3d40.6778851!4d-73.9859758",
+  "phone": "(347) 987-4225",
+  "phoneLink": "+13479874225",
+  "instagram": "@cafemarsbk",
+  "instagramLink": "https://instagram.com/cafemarsbk",
+  "email": "info@cafemarsbk.com"
 }

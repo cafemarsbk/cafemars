@@ -40,6 +40,10 @@ module.exports = {
         ".hero-normal": {
           background: imageSetting,
         },
+        ".sketch": {
+          "border-radius":
+            "255px 15px 225px 15px/15px 225px 15px 255px !important",
+        },
         ".hero-inverted": {
           background: hoverImageSetting,
         },

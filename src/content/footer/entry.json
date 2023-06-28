@@ -34,25 +34,25 @@
       "title": "Opening Times",
       "items": [
         {
-          "name": "Monday? Closed!"
+          "name": "Monday? Closed"
         },
         {
-          "name": "Tuesday? Closed!"
+          "name": "Tuesday? Closed"
         },
         {
-          "name": "Wednesday? 5:30-9!"
+          "name": "Wednesday? 5:30-9"
         },
         {
-          "name": "Thursday? 5:30-9!"
+          "name": "Thursday? 5:30-9"
         },
         {
-          "name": "Friday? 5:30-10!"
+          "name": "Friday? 5:30-10"
         },
         {
-          "name": "Saturday? 5:30-10!"
+          "name": "Saturday? 5:30-10"
         },
         {
-          "name": "Sunday? 3-630!"
+          "name": "Sunday? 3-6:30"
         }
       ]
     },

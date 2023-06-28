@@ -722,36 +722,53 @@ export default defineConfig({
             type: "object",
             fields: [
               {
-                label: "Day",
-                name: "day",
+                label: "Details",
+                name: "details",
                 type: "string",
-                options: [
-                  "Monday",
-                  "Tuesday",
-                  "Wednesday",
-                  "Thursday",
-                  "Friday",
-                  "Saturday",
-                  "Sunday",
-                ],
-              },
-              {
-                label: "Opening Time",
-                name: "openingTime",
-                type: "string",
-              },
-              {
-                label: "Closing Time",
-                name: "closingTime",
-                type: "string",
+                required: true,
               },
             ],
             list: true,
             ui: {
               itemProps: (item) => {
-                return { label: item?.day };
+                return { label: item?.details };
               },
             },
+          },
+          {
+            label: "Address Display Text",
+            name: "address",
+            type: "string",
+          },
+          {
+            label: "Address Link",
+            name: "addressLink",
+            type: "string",
+          },
+          {
+            label: "Phone Display Text",
+            name: "phone",
+            type: "string",
+          },
+          {
+            label: "Phone Link",
+            name: "phoneLink",
+            type: "string",
+          },
+          {
+            label: "Instagram Display Text",
+            name: "instagram",
+            type: "string",
+          },
+          {
+            label: "Instagram Link",
+            name: "instagramLink",
+            type: "string",
+          },
+          {
+            label: "Email",
+            name: "email",
+            type: "string",
           },
         ],
       },
