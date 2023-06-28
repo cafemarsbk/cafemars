@@ -21,7 +21,7 @@ const menuitems = settingsEntry.data.maintenanceMode ? [] : navList;
           <img src={settingsEntry?.data.headerImage} alt="" />
         </div>
       </a>
-      <div class="block lg:hidden">
+      <div class="block lg:hidden bg-white">
         <a
           href={navigationEntry?.data.bookingLink.link}
           class="text-white bg-[#00b74f] hover:bg-[#00b74f] focus:ring-4 font-medium rounded-full text-lg px-5 py-2.5 mr-2 mb-2"
@@ -36,10 +36,12 @@ const menuitems = settingsEntry.data.maintenanceMode ? [] : navList;
         {
           menuitems.map((item) => (
             <>
-              <li>
-                <a href={item.link} class="flex lg:px-3 py-2 text-lg font-cafemars">
-                  {item.name}
-                </a>
+              <li class="bg-white w-full z-5">
+                <h1>
+                  <a href={item.link} class="flex lg:px-3 py-2 text-2xl ">
+                    {item.name}
+                  </a>
+                </h1>
               </li>
             </>
           ))
