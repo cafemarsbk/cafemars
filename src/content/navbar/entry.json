@@ -5,20 +5,20 @@
       "link": "/menu/main"
     },
     {
-      "name": "gallery",
-      "link": "/gallery"
-    },
-    {
-      "name": "contact",
-      "link": "/contact"
+      "name": "about",
+      "link": "/about"
     },
     {
       "name": "friends",
       "link": "/friends"
     },
     {
-      "name": "about",
-      "link": "/about"
+      "name": "gallery",
+      "link": "/gallery"
+    },
+    {
+      "name": "contact",
+      "link": "/contact"
     }
   ],
   "bookingLink": {
