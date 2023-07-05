@@ -9,7 +9,7 @@ draft: false
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia accusantium impedit hic? Asperiores minus omnis consequatur aperiam molestiae officiis ipsam dolores neque dolorum necessitatibus possimus nemo harum deserunt, dolor ipsa.
 
-![](</Cafe Mars Facade w text CM font.png>)
+![](</Cafe Mars Facade inverse.jpg>)
 
 ### F. A. Q. ?!
 
