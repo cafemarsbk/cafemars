@@ -11,6 +11,34 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia accusantium i
 
 ![](/before_d7e91s.svg)
 
-### FAQ Test
+### F. A. Q. ?!
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia accusantium impedit hic? Asperiores minus omnis consequatur aperiam molestiae officiis ipsam dolores neque dolorum necessitatibus possimus nemo harum deserunt, dolor ipsa.
+Does Café Mars take walk-ins?
+
+Absolutely! We are thrilled to have you as our guest, as long as there is enough space and time. We keep some tables and bar seating for walk-ins, so it’s always worth a try, particularly early in the night. In addition, our bar has an odd number of seats intentionally, to encourage a cherished activity of ours: solo walk-in dinner at the bar.
+
+Can you modify my reservation for me?
+
+We are a small team at Café Mars and do not have a dedicated reservationist. We kindly ask for changes in party size, time, or date to be modified in your Tock account under “Upcoming Reservations.” If that still doesn’t help, please call or email us. 
+
+Do you have vegetarian or vegan options?
+
+At Café Mars, we love vegetables and they inspire much of our food. A good deal of the menu is, or can be made to be, vegetarian. That being said, Italian cooking leans heavily on dairy, eggs, and many other animal products, so we seldom have expressly vegan dishes available.
+
+ 
+
+Do you have gluten-free options?
+
+There are usually some dishes that happen to be or can be made to be gluten-free. But as the Italian kitchen is held together by gluten, we cannot always guarantee a wide range of gluten-free dishes. All of the pasta sauces can be made with a GF dried pasta. 
+
+Can I book a table for more than 6 people?
+
+You sure can! That being said, we are a small restaurant with a small kitchen. Due to the layout of Café Mars, larger parties effectively become a semi-private event, filling the entire back room and have a dedicated server. In order to ensure the best possible experience for you, our staff, and the rest of the guests, larger parties are offered to choose from an array of set (but customizable) menus. And while we wish we could host large parties on short notice, the farther in advance you can let us know, the more likely we will have space. Less than two weeks is very unlikely, three or four weeks might work, but over a month is a guarantee). To book or get more information, please call or email us!
+
+Is Café Mars available for private events?
+
+Are we ever?! Every night at Café Mars, we throw a party for all-comers. It’s the kind of party we love, but there are certainly constraints, like space, time and the unknown. Private events allow us to work with you to control all of these variables, and create a unique and memorable night for your party. For private events and buy outs, we ask for requests at least a month in advance to book on Wednesdays to Sundays, and at least two weeks in advance for Mondays and Tuesdays. Please email us to set up a very special night at Café Mars!
+
+Are you hiring?
+
+We’re always looking to meet new people and hear new stories. Check out our jobs page to see If you think Café Mars might be a place for you. We can’t promise we will have an opening the day we talk, but who knows what the future will bring?!
