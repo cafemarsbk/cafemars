@@ -5,16 +5,16 @@
       "link": "/menu/main"
     },
     {
+      "name": "gallery",
+      "link": "/gallery"
+    },
+    {
       "name": "about",
       "link": "/about"
     },
     {
       "name": "friends",
       "link": "/friends"
-    },
-    {
-      "name": "gallery",
-      "link": "/gallery"
     },
     {
       "name": "contact",
