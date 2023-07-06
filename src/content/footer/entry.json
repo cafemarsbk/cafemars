@@ -4,11 +4,6 @@
       "title": "Links",
       "items": [
         {
-          "name": "About",
-          "link": "/about",
-          "type": ""
-        },
-        {
           "name": "Menus",
           "link": "/menu/main",
           "type": ""
@@ -19,13 +14,18 @@
           "type": ""
         },
         {
-          "name": "Jobs And Careers",
-          "link": "/jobs",
+          "name": "About",
+          "link": "/about",
           "type": ""
         },
         {
           "name": "Friends",
           "link": "/friends",
+          "type": ""
+        },
+        {
+          "name": "Jobs And Careers",
+          "link": "/jobs",
           "type": ""
         }
       ]
