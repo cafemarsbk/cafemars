@@ -13,7 +13,7 @@ draft: false
 
            Whereas many Italian restaurants tend to use a magnifying glass to zoom in on specific regions and traditions, we instead reach for a telescope. Café Mars looks at the totality of Italian cuisine, gaining inspiration from every region of Italy, and even beyond the boot. From the port cities of North and South America, to the Itameshi cuisine of Japan, the universal love of Italian cooking has seen it travel to every corner of the world, and reinterpreted wherever it went. That's our Italy. Be it food or drink, our menus shine a light on overlooked classics and unexpectedly delicious flavors that aim to reframe what means to go out for Italian. 
 
-### F. A. Q. ?!
+# F. A. Q. ?!
 
 **Does Café Mars take walk-ins?**
 
