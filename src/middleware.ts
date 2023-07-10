@@ -9,13 +9,6 @@ export function onRequest({ request }, next) {
       throw Error("Site is in maintenance mode");
     }
   }
-
-  // if (url.pathname !== "/") {
-  //   const lastPath = url.pathname.match(/[^/]+$/)[0];
-  //   if (!sitesettings[lastPath]) {
-  //     throw Error("Page not found");
-  //   }
-  // }
-  // return a Response or the result of calling `next()`
+  
   return next();
 }

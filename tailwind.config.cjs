@@ -118,6 +118,12 @@ module.exports = {
           "text-transform": "uppercase",
           "letter-spacing": "2px",
         },
+        a: {
+          "cursor": "none",
+        },
+        "a:hover": {
+          "cursor": "none",
+        },
       });
     }),
   ],

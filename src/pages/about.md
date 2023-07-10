@@ -9,7 +9,7 @@ draft: false
 
 Whereas many Italian restaurants tend to use a magnifying glass to zoom in on specific regions and traditions, we instead reach for a telescope. Café Mars looks at the totality of Italian cuisine, gaining inspiration from every region of Italy, and even beyond the boot. From the port cities of North and South America, to the Itameshi cuisine of Japan, the universal love of Italian cooking has seen it travel to every corner of the world, and reinterpreted wherever it went. That's our Italy. Be it food or drink, our menus shine a light on overlooked classics and unexpectedly delicious flavors that aim to reframe what means to go out for Italian.
 
-![](/fulltable1.jpg)
+![](/nightfullbuilding_capeesh.jpg)
 
 # F. A. Q. ?!
 
@@ -29,7 +29,7 @@ At Café Mars, we love vegetables and they inspire much of our food. A good deal
 
 There are usually some dishes that happen to be or can be made to be gluten-free. But as the Italian kitchen is held together by gluten, we cannot always guarantee a wide range of gluten-free dishes. All of the pasta sauces can be made with a GF dried pasta. 
 
-**Can I book a table for more than 6 people?**
+> **Can I book a table for more than 6 people?**
 
 You sure can! That being said, we are a small restaurant with a small kitchen. Due to the layout of Café Mars, larger parties effectively become a semi-private event, filling the entire back room and have a dedicated server. In order to ensure the best possible experience for you, our staff, and the rest of the guests, larger parties are offered to choose from an array of set (but customizable) menus. And while we wish we could host large parties on short notice, the farther in advance you can let us know, the more likely we will have space. Less than two weeks is very unlikely, three or four weeks might work, but over a month is a guarantee). To book or get more information, please call or email us!
 

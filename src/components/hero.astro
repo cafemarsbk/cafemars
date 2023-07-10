@@ -3,16 +3,22 @@ import { getEntry } from "astro:content";
 const settingsEntry = await getEntry("sitesettings", "entry");
 ---
 
-<section id="sectionImage" class="hero-normal">
+<section id="sectionImage" class="hero-normal cursor-none hover:cursor-none">
   <div class="h-screen grid grid-cols-1 lg:grid-cols-5 gap-16">
     <div class="hidden md:block md:col-span-1"></div>
     <div class="col-span-3 flex justify-center items-center">
-      <img
-        id="logo"
-        src={settingsEntry?.data.heroImage}
-        alt="hover log"
-        class="w-3/5 duration-700"
-      />
+      {settingsEntry?.data.heroImageOn ?
+        (<img
+          id="logo"
+          src={settingsEntry?.data.heroImage}
+          alt="hover log"
+          class="w-2/5 duration-700"
+        />)
+        : 
+        (
+          <div id="logo" class="h-40 w-40 bg-transparent"></div>
+        )
+      }
     </div>
     <div class="hidden md:block md:col-span-1"></div>
   </div>

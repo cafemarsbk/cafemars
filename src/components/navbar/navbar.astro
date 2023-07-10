@@ -5,9 +5,7 @@ import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 
 const settingsEntry = await getEntry("sitesettings", "entry");
 const navigationEntry = await getEntry("navbar", "entry");
-const navList = navigationEntry?.data.navigationItem.filter(
-  (item) => settingsEntry.data[item.link.match(/[^/]+$/)[0]]
-);
+const navList = navigationEntry?.data.navigationItem.filter(item => !item.pageOff);
 
 const menuitems = settingsEntry.data.maintenanceMode ? [] : navList;
 ---
@@ -17,7 +15,7 @@ const menuitems = settingsEntry.data.maintenanceMode ? [] : navList;
   <Astronav>
     <div class="flex w-full lg:w-auto items-center justify-between py-1">
       <a href="/" class="text-lg">
-        <div class="w-40 max-h-40">
+        <div class="w-28 max-h-28">
           <img src={settingsEntry?.data.headerImage} alt="" />
         </div>
       </a>

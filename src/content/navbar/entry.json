@@ -1,10 +1,6 @@
 {
   "navigationItem": [
     {
-      "name": "Stuff",
-      "link": "/about"
-    },
-    {
       "name": "menus",
       "link": "/menu/main"
     },

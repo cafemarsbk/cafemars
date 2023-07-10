@@ -196,6 +196,11 @@ export default defineConfig({
                 type: "string",
                 required: true,
               },
+              {
+                label: "Page Off",
+                name: "pageOff",
+                type: "boolean",
+              }
             ],
             list: true,
             ui: {
@@ -701,30 +706,10 @@ export default defineConfig({
             type: "image",
           },
           {
-            label: "Menus",
-            name: "main",
+            label: "Hero Image On",
+            name: "heroImageOn",
             type: "boolean",
-          },
-          {
-            label: "Gallery",
-            name: "gallery",
-            type: "boolean",
-          },
-          {
-            label: "Contact",
-            name: "contact",
-            type: "boolean",
-          },
-          {
-            label: "Friends",
-            name: "friends",
-            type: "boolean",
-          },
-          {
-            label: "About",
-            name: "about",
-            type: "boolean",
-          },
+          }
         ],
       },
       {

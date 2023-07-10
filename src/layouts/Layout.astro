@@ -52,7 +52,7 @@ const makeTitle = title
       }}
     />
   </head>
-  <body class="text-black font-helevetica bg-white">
+  <body class="text-black font-helevetica bg-white cursor-none hover:cursor-none">
     <!-- Navbar -->
     <Navbar />
 
@@ -111,8 +111,6 @@ const makeTitle = title
             mouseCircle.classList.remove("md:cursor-link-hover");
             mouseCircle.classList.add("md:cursor-invert");
           });
-          link.classList.add("hover:cursor-none");
-          body.classList.add("cursor-none");
         });
       });
     </script>

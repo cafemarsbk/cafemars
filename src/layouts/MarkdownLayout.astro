@@ -57,7 +57,7 @@ const { frontmatter } = Astro.props;
       }}
     />
   </head>
-  <body class="text-black font-helevetica cursor-none">
+  <body class="text-black bg-white font-helevetica cursor-none hover:cursor-none">
     <!-- Navbar -->
     <Navbar />
 
@@ -67,28 +67,14 @@ const { frontmatter } = Astro.props;
       <Image
         src={frontmatter.mainImage}
         alt=""
-        class="w-4/5"
+        class="w-full h-96 object-cover"
         width={1600}
         aspectRatio="16:9"
       />
-      <article class="prose lg:prose-xl py-16 font-normal">
+      <article class="py-16 font-normal leading-normal [&>*]:mb-6 text-lg md:px-5 lg:[&>p>img]:w-3/5 lg:[&>p>img]:float-right lg:[&>p>img]:m-4">
         <slot />
       </article>
 
-      {
-        frontmatter.faqImage && (
-          <Image
-            src={frontmatter.faqImage}
-            alt=""
-            class="w-4/5"
-            width={1600}
-            aspectRatio="16:9"
-          />
-        )
-      }
-      <article class="prose lg:prose-xl py-16 font-normal">
-        {frontmatter.faqContent}
-      </article>
     </Container>
 
     <!-- Footer -->
@@ -143,8 +129,6 @@ const { frontmatter } = Astro.props;
             mouseCircle.classList.remove("md:cursor-link-hover");
             mouseCircle.classList.add("md:cursor-invert");
           });
-          link.classList.add("hover:cursor-none");
-          body.classList.add("cursor-none");
         });
       });
     </script>
