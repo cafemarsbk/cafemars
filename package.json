@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "npx tinacms dev -c 'astro dev'",
     "start": "astro dev",
-    "build": "tinacms build && pnpm run astro build",
+    "build": "tinacms build && npm run astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
