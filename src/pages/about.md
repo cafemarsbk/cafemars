@@ -2,7 +2,7 @@
 layout: ../layouts/MarkdownLayout.astro
 title: about
 mainImage: /photos/fulltable1.jpg
-draft: false
+draft: true
 ---
 
 # About Us
