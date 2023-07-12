@@ -7,11 +7,13 @@ draft: false
 
 # About Us
 
-        Café Mars is an unusual Italian restaurant, nestled in the heart of the historically Italian neighborhood of Gowanus, Brooklyn. Opened in May 2023, co-chefs Paul D'Avino and Jorge Olarte, alongside service & beverage director Madalyn Summers, are looking to honor tradition while expanding the definition of what an Italian restaurant can be.
+```markdown
+    Café Mars is an unusual Italian restaurant, nestled in the heart of the historically Italian neighborhood of Gowanus, Brooklyn. Opened in May 2023, co-chefs Paul D'Avino and Jorge Olarte, alongside service & beverage director Madalyn Summers, are looking to honor tradition while expanding the definition of what an Italian restaurant can be.
 
-        Steeped in Italian history, Café Mars occupies a former pasta factory and Italian grocer, sitting across the street from the home Paul's great grandfather lived in, after immigrating to Brooklyn from Campania, Italy in 1901. While Café Mars connection to the past is strong, we also tap into the ever-evolving elements of modern Italian culture beyond just gastronomy. Our combined restaurant experience (wd~50, Ma Peche, Estela, aska, Rolf & Daughters, and M. Wells Dinette) travels, and research lend a broad base to deliver a different kind of Italian meal.
+    Steeped in Italian history, Café Mars occupies a former pasta factory and Italian grocer, sitting across the street from the home Paul's great grandfather lived in, after immigrating to Brooklyn from Campania, Italy in 1901. While Café Mars connection to the past is strong, we also tap into the ever-evolving elements of modern Italian culture beyond just gastronomy. Our combined restaurant experience (wd~50, Ma Peche, Estela, aska, Rolf & Daughters, and M. Wells Dinette) travels, and research lend a broad base to deliver a different kind of Italian meal.
 
-        Whereas many Italian restaurants tend to use a magnifying glass to zoom in on specific regions and traditions, we instead reach for a telescope. Café Mars looks at the totality of Italian cuisine, gaining inspiration from every rregion of Italy, and every beyond the boot. From the port cities of North and South America, to the Itameshi cuisine of Japan, the universal love of Italian cooking has seen it travel to every corner of the world, and reinterpreted wherever it went. That's our Italy. Be it food or drink, our menus shine a light on overlooked classics and unexpected flavors that aim to reframe what it means to go out for Italian.
+    Whereas many Italian restaurants tend to use a magnifying glass to zoom in on specific regions and traditions, we instead reach for a telescope. Café Mars looks at the totality of Italian cuisine, gaining inspiration from every rregion of Italy, and every beyond the boot. From the port cities of North and South America, to the Itameshi cuisine of Japan, the universal love of Italian cooking has seen it travel to every corner of the world, and reinterpreted wherever it went. That's our Italy. Be it food or drink, our menus shine a light on overlooked classics and unexpected flavors that aim to reframe what it means to go out for Italian.
+```
 
 ![](/nightfullbuilding_capeesh.jpg)
 
