@@ -6,5 +6,6 @@
   "gallery": true,
   "contact": true,
   "friends": true,
-  "about": false
+  "about": false,
+  "heroImageOn": true
 }
