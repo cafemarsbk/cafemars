@@ -1,6 +1,7 @@
 {
   "footerColumn": [
     {
+      "id": "links",
       "title": "Links",
       "items": [
         {
@@ -31,6 +32,7 @@
       ]
     },
     {
+      "id": "openinghours",
       "title": "Opening Times",
       "items": [
         {
@@ -57,6 +59,7 @@
       ]
     },
     {
+      "id": "contact",
       "title": "Contact",
       "items": [
         {
@@ -86,6 +89,7 @@
       ]
     },
     {
+      "id": "about",
       "title": "Café Mars",
       "items": [
         {

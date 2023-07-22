@@ -200,7 +200,7 @@ export default defineConfig({
                 label: "Page Off",
                 name: "pageOff",
                 type: "boolean",
-              }
+              },
             ],
             list: true,
             ui: {
@@ -231,9 +231,9 @@ export default defineConfig({
         ],
       },
       {
-        name: "footer",
+        name: "footer_and_businessinfo",
         label: "Footer",
-        path: "src/content/footer",
+        path: "src/content/footer_and_businessinfo",
         format: "json",
         ui: {
           allowedActions: {
@@ -335,100 +335,124 @@ export default defineConfig({
         label: "Menus",
         path: "src/content/menus",
         format: "json",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
         fields: [
           {
-            label: "Title",
-            name: "title",
             type: "string",
-            isTitle: true,
-            required: true,
+            name: "title",
+            label: "Page Banner Title",
           },
           {
-            label: "Coming Soon",
-            name: "isDraft",
-            type: "boolean",
-          },
-          {
-            label: "Picture Menu On",
-            name: "pictureOrText",
-            type: "boolean",
-          },
-          {
-            label: "Menu Picture",
-            type: "image",
-            name: "menuPicture",
-          },
-          {
-            label: "Subsection",
-            name: "subsection",
             type: "object",
-            required: true,
+            name: "menuitem",
+            label: "Menu",
+            list: true,
+            ui: {
+              itemProps: (item) => {
+                return { label: item.title ? item.title : "Job Name" };
+              },
+            },
             fields: [
               {
                 label: "Title",
                 name: "title",
                 type: "string",
+                isTitle: true,
+                required: true,
               },
               {
-                label: "Pasta Menu Image",
-                name: "pastaImage",
-                type: "string",
-                options: [
-                  {
-                    value: "/photos/snacks_o8cu6x.svg",
-                    label: "Green Pasta",
-                  },
-                  {
-                    value: "/photos/before_d7e91s.svg",
-                    label: "Pink Pasta",
-                  },
-                  {
-                    value: "/photos/pasta_drr2wp.svg",
-                    label: "Yellow Pasta",
-                  },
-                  {
-                    value: "/photos/big_i8isdj.svg",
-                    label: "Blue Pasta",
-                  },
-                ],
+                label: "Coming Soon",
+                name: "isDraft",
+                type: "boolean",
               },
               {
-                label: "Menu Items",
-                name: "menuItems",
+                label: "Picture Menu On",
+                name: "pictureOrText",
+                type: "boolean",
+              },
+              {
+                label: "Menu Picture",
+                type: "image",
+                name: "menuPicture",
+              },
+              {
+                label: "Subsection",
+                name: "subsection",
                 type: "object",
+                required: true,
                 fields: [
                   {
-                    label: "Item Name",
-                    name: "name",
-                    type: "string",
-                    required: true,
-                  },
-                  {
-                    label: "Item Description",
-                    name: "description",
+                    label: "Title",
+                    name: "title",
                     type: "string",
                   },
                   {
-                    label: "Item Price",
-                    name: "price",
-                    type: "number",
-                    required: true,
+                    label: "Pasta Menu Image",
+                    name: "pastaImage",
+                    type: "string",
+                    options: [
+                      {
+                        value: "/photos/snacks_o8cu6x.svg",
+                        label: "Green Pasta",
+                      },
+                      {
+                        value: "/photos/before_d7e91s.svg",
+                        label: "Pink Pasta",
+                      },
+                      {
+                        value: "/photos/pasta_drr2wp.svg",
+                        label: "Yellow Pasta",
+                      },
+                      {
+                        value: "/photos/big_i8isdj.svg",
+                        label: "Blue Pasta",
+                      },
+                    ],
+                  },
+                  {
+                    label: "Menu Items",
+                    name: "menuItems",
+                    type: "object",
+                    fields: [
+                      {
+                        label: "Item Name",
+                        name: "name",
+                        type: "string",
+                        required: true,
+                      },
+                      {
+                        label: "Item Description",
+                        name: "description",
+                        type: "string",
+                      },
+                      {
+                        label: "Item Price",
+                        name: "price",
+                        type: "number",
+                        required: true,
+                      },
+                    ],
+                    list: true,
+                    ui: {
+                      itemProps: (item) => {
+                        return { label: item?.name };
+                      },
+                    },
                   },
                 ],
                 list: true,
                 ui: {
                   itemProps: (item) => {
-                    return { label: item?.name };
+                    return { label: item?.title };
                   },
                 },
               },
             ],
-            list: true,
-            ui: {
-              itemProps: (item) => {
-                return { label: item?.title };
-              },
-            },
           },
         ],
       },
@@ -709,7 +733,7 @@ export default defineConfig({
             label: "Hero Image On",
             name: "heroImageOn",
             type: "boolean",
-          }
+          },
         ],
       },
       {

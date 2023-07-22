@@ -1,41 +1,61 @@
 ---
 // Imports
-import { getCollection } from "astro:content";
+import { getCollection, getEntry } from "astro:content";
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import { Image } from "@astrojs/image/components";
 import Banner from "@components/banner.astro";
 
+interface menuItemsInterface {
+  name: string;
+  description: string;
+  price: number;
+}
+
+interface menuSubsections {
+  title: string;
+  pastaImage: string;
+  menuItems: Array<menuItemsInterface>;
+}
+
+interface menuEntriesInterface {
+  title: string;
+  subsection: Array<menuSubsections>;
+  pictureOrText: boolean;
+  menuPicture: string;
+}
+
+const menuEntries = await getEntry("menus", "entry");
+const menuData: menuEntriesInterface[] = menuEntries.data.menuitem;
+
 // Static paths
 export async function getStaticPaths() {
-  const menuEntries = await getCollection("menus");
-  return menuEntries.map((entry) => ({
-    params: { menutype: entry.id.toLowerCase() },
+  const menuEntries = await getEntry("menus", "entry");
+  const menuData: menuEntriesInterface[] = menuEntries.data.menuitem;
+  return menuData.map((entry) => ({
+    params: { menutype: entry.title.toLowerCase() },
     props: { entry },
   }));
 }
-
-// Collection
-const menuEntryLinks = await getCollection("menus");
 
 // Props
 const { entry } = Astro.props;
 ---
 
-<Layout title={entry.data.title}>
+<Layout title={entry.title}>
   <!-- Menu header -->
-  <Banner bannerTitle="menu" />
+  <Banner bannerTitle={menuEntries.data.title} />
 
   <Container>
     <!-- Menu links -->
     <section class="py-5">
       <div class="flex flex-wrap justify-center gap-4 mb-16">
         {
-          menuEntryLinks.map((e) => (
+          menuData.map((entry) => (
             <a
-              href={`/menu/${e.id.toLowerCase()}`}
-              class="hover:text-white hover:bg-[#00b74f] font-medium rounded-full text-lg px-5 py-2.5 mr-2 mb-2 border border-[#00b74f] border-2">
-              {e.id}
+              href={`/menu/${entry.title.toLowerCase()}`}
+              class="hover:text-white hover:bg-[#00b74f] font-medium rounded-full text-lg px-5 py-2.5 mr-2 mb-2 border-[#00b74f] border-2">
+              {entry.title}
             </a>
           ))
         }
@@ -43,13 +63,13 @@ const { entry } = Astro.props;
 
       <!-- Menu content -->
       {
-        entry.data.isDraft ? (
+        entry.isDraft ? (
           <div class="flex justify-center">
             <h1>Coming Soon</h1>
           </div>
-        ) : !entry.data.pictureOrText ? (
+        ) : !entry.pictureOrText ? (
           <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            {entry.data.subsection.map((s) => (
+            {entry.subsection.map((s) => (
               <div class="col-span-1">
                 <div class="mb-4 flex justify-start overflow-hidden items-center">
                   <h1 class="text-4xl md:text-6xl ">{s.title}</h1>
@@ -77,7 +97,7 @@ const { entry } = Astro.props;
         ) : (
           <div class="flex justify-center">
             <img
-              src={entry.data.menuPicture}
+              src={entry.menuPicture}
               alt="Menu Image"
               loading="eager"
             />

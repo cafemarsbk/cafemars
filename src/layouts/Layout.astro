@@ -80,24 +80,11 @@ const makeTitle = title
     <!-- JavaScript -->
     <script>
       document.addEventListener("DOMContentLoaded", () => {
-        let mousePosX = 0,
-          mousePosY = 0,
-          mouseCircle = document.getElementById("mouse-circle");
+        let mouseCircle = document.getElementById("mouse-circle");
         document.onmousemove = (e) => {
-          mousePosX = e.clientX;
-          mousePosY = e.clientY;
+          mouseCircle.style.top = e.clientY + "px";
+          mouseCircle.style.left = e.clientX + "px";
         };
-        let delay = 12,
-          revisedMousePosX = 0,
-          revisedMousePosY = 0;
-        function delayMouseFollow() {
-          requestAnimationFrame(delayMouseFollow);
-          revisedMousePosX += (mousePosX - revisedMousePosX) / delay;
-          revisedMousePosY += (mousePosY - revisedMousePosY) / delay;
-          mouseCircle.style.top = revisedMousePosY + "px";
-          mouseCircle.style.left = revisedMousePosX + "px";
-        }
-        delayMouseFollow();
 
         // Add this code snippet to detect mouse hover over links
         const links = document.querySelectorAll("a");
