@@ -3,7 +3,7 @@
     {
       "title": "Main",
       "pictureOrText": true,
-      "menuPicture": "/mainmenu622.jpg",
+      "menuPicture": "/Main 725232.png",
       "subsection": [
         {
           "title": "Snacks",
@@ -140,9 +140,7 @@
       "title": "Beverages",
       "pictureOrText": true,
       "menuPicture": "/BTG 7:15.jpg",
-      "subsection": [
-        
-      ]
+      "subsection": []
     },
     {
       "title": "Sunday",
