@@ -1,6 +1,11 @@
 {
   "menuitem": [
     {
+      "title": "Bottles",
+      "pictureOrText": true,
+      "menuPicture": "/Bottle Menu 72523.png"
+    },
+    {
       "title": "Main",
       "pictureOrText": true,
       "menuPicture": "/Main 725232.png",
