@@ -1,6 +1,11 @@
 {
   "menuitem": [
     {
+      "title": "Amaro & Grappa",
+      "pictureOrText": true,
+      "menuPicture": "/Amarograppa 725232.png"
+    },
+    {
       "title": "Main",
       "pictureOrText": true,
       "menuPicture": "/Main 725232.png",
@@ -142,7 +147,9 @@
       "title": "Beverages",
       "pictureOrText": true,
       "menuPicture": "/BTG menu 72523.png",
-      "subsection": []
+      "subsection": [
+        {}
+      ]
     },
     {
       "title": "Bottles",
