@@ -112,6 +112,8 @@
     },
     {
       "title": "Dessert",
+      "pictureOrText": true,
+      "menuPicture": "/After Menu 72523.png",
       "subsection": [
         {
           "title": "After",
