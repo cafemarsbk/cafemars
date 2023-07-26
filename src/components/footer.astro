@@ -5,7 +5,7 @@ const footerEntry = await getEntry("footer_and_businessinfo", "entry");
 const listOfColumns = footerEntry.data.footerColumn;
 ---
 
-<footer class="bg-[#00b74f] px-20 py-8 text-white cursor-none hover:cursor-none">
+<footer class="bg-[#00b74f] px-20 py-8 text-white">
   <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-4">
     {
       listOfColumns.map((column) => (
