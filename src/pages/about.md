@@ -13,7 +13,7 @@ Steeped in Italian history, Café Mars occupies a former pasta factory and Itali
 
 Whereas many Italian restaurants tend to use a magnifying glass to zoom in on specific regions and traditions, we instead reach for a telescope. Café Mars looks at the totality of Italian cuisine, gaining inspiration from every region of Italy, and every beyond the boot. From the port cities of North and South America, to the Itameshi cuisine of Japan, the universal love of Italian cooking has seen it travel to every corner of the world, and reinterpreted wherever it went. That's our Italy. Be it food or drink, our menus shine a light on overlooked classics and unexpected flavors that aim to reframe what it means to go out for Italian.
 
-![](/fullinterior.png)![](/nightwindowfront.png)
+![](/nightwindowfront.png)
 
 # F. A. Q. ?!
 
