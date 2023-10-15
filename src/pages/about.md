@@ -1,8 +1,8 @@
 ---
 layout: ../layouts/MarkdownLayout.astro
+draft: false
 title: about
 mainImage: /photos/fulltable1.jpg
-draft: false
 ---
 
 # About Us
@@ -33,9 +33,13 @@ At Café Mars, we love vegetables and they inspire much of our food. A good deal
 
 There are usually some dishes that happen to be or can be made to be gluten-free. But as the Italian kitchen is held together by gluten, we cannot always guarantee a wide range of gluten-free dishes. All of the pasta sauces can be made with a GF dried pasta. 
 
-> **Can I book a table for more than 6 people?**
+**Can I book a table for more than 6 people?**
 
-You sure can! That being said, we are a small restaurant with a small kitchen. Due to the layout of Café Mars, larger parties effectively become a semi-private event, filling the entire back room and have a dedicated server. In order to ensure the best possible experience for you, our staff, and the rest of the guests, larger parties are offered to choose from an array of set (but customizable) menus. And while we wish we could host large parties on short notice, the farther in advance you can let us know, the more likely we will have space. Less than two weeks is very unlikely, three or four weeks might work, but over a month is a guarantee). To book or get more information, please call or email us!
+You sure can! That being said, we are a small restaurant with a small kitchen. Due to the layout of Café Mars, larger parties effectively become a semi-private event, filling the entire back room and have a dedicated server. In order to ensure the best possible experience for you, our staff, and the rest of the guests, larger parties are offered to choose from an array of set (but customizable) menus. And while we wish we could host large parties on short notice, the farther in advance you can let us know, the more likely we will have space. Less than two weeks is unlikely (but worth a try!), three or four weeks has a good chance, and over a month is a guarantee). To book or get more information, please drop a line to [info@cafemarsbk.com](mailto:info@cafemarsbk.com "info@cafemarsbk.com")!
+
+Does **Café Mars offer gift certificates?**
+
+Absolutely! We offer paper gift certificates in any amount. They can be picked up at the restaurant or mailed to you. It is also possible to simply pre-pay for someone's meal over the phone by credit card. Either way, please send a message to info@cafemarsbk.com for more information.
 
 **Is Café Mars available for private events?**
 
