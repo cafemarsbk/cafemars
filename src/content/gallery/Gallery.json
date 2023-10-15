@@ -1,5 +1,4 @@
 {
-  "title": "Gallery",
   "photoentry": [
     {
       "photo": "/photos/jellolives far.jpg",
@@ -14,7 +13,8 @@
     },
     {
       "photo": "/photos/parma bass.jpg",
-      "alt": "gallery image"
+      "photographer": "Patrick Dolande",
+      "alt": "Parmesan-cured fluke crudo, crazy water"
     },
     {
       "photo": "/photos/sonic blue neon.jpg",
