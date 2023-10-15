@@ -39,11 +39,11 @@ You sure can! That being said, we are a small restaurant with a small kitchen. D
 
 Does **Café Mars offer gift certificates?**
 
-Absolutely! We offer paper gift certificates in any amount. They can be picked up at the restaurant or mailed to you. It is also possible to simply pre-pay for someone's meal over the phone by credit card. Either way, please send a message to info@cafemarsbk.com for more information.
+Absolutely! We offer paper gift certificates in any amount. They can be picked up at the restaurant or mailed to you. It is also possible to simply pre-pay for someone's meal over the phone by credit card. Either way, please send a message to [info@cafemarsbk.com](mailto:info@cafemarsbk.com "info@cafemarsbk.com") for more information.
 
 **Is Café Mars available for private events?**
 
-Are we ever?! Every night at Café Mars, we throw a party for all-comers. It’s the kind of party we love, but there are certainly constraints, like space, time and the unknown. Private events allow us to work with you to control all of these variables, and create a unique and memorable night for your party. For private events and buy outs, we ask for requests at least a month in advance to book on Wednesdays to Sundays, and at least two weeks in advance for Mondays and Tuesdays. Please email us to set up a very special night at Café Mars!
+Are we ever?! Every night at Café Mars, we throw a party for all-comers. It’s the kind of party we love, but there are certainly constraints, like space, time and the unknown. Private events allow us to work with you to control all of these variables, and create a unique and memorable night for your party. For private events and buy outs, we ask for requests at least a month in advance to book on Wednesdays to Sundays, and at least two weeks in advance for Mondays and Tuesdays. Please write us at [info@cafemarsbk.com](mailto:info@cafemarsbk.com "info@cafemarsbk.com") us to set up a very special night at Café Mars!
 
 **Are you hiring?**
 
