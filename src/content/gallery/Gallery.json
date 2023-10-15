@@ -2,7 +2,11 @@
   "photoentry": [
     {},
     {},
-    {},
+    {
+      "photo": "/Interior/exterior photos/format-1914-36.jpg",
+      "photographer": "Nick Glimenakis",
+      "alt": "Brick room"
+    },
     {
       "photo": "/Interior/exterior photos/format-1914-37.jpg",
       "photographer": "Nick Glimenakis",
