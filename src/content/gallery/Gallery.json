@@ -39,7 +39,8 @@
     },
     {
       "photo": "/photos/isola bella purple.jpg",
-      "alt": "gallery image"
+      "photographer": "Patrick Dolande",
+      "alt": "Isola Bella"
     },
     {
       "photo": "/photos/waves.jpg",
