@@ -44,7 +44,8 @@
     },
     {
       "photo": "/photos/waves.jpg",
-      "alt": "gallery image"
+      "photographer": "Patrick Dolande",
+      "alt": "Waves, shrimp, peas, mint, Calabrian chili"
     },
     {
       "photo": "/photos/ribs parm far.jpg",
