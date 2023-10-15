@@ -1,7 +1,11 @@
 {
   "photoentry": [
     {},
-    {},
+    {
+      "photo": "/Interior/exterior photos/format-1914-20.jpg",
+      "photographer": "Nick Glimenakis",
+      "alt": "Food counter"
+    },
     {
       "photo": "/Interior/exterior photos/format-1914-14.jpg",
       "photographer": "Nick Glimenakis",
