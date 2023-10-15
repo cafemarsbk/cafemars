@@ -28,7 +28,8 @@
     },
     {
       "photo": "/photos/pancake half.jpg",
-      "alt": "gallery image"
+      "photographer": "Patrick Dolande",
+      "alt": "Pancake primavera"
     },
     {
       "photo": "/photos/trop fruit far.jpg",
