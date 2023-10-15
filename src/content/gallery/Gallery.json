@@ -63,7 +63,8 @@
     },
     {
       "photo": "/photos/almond ice cream.jpg",
-      "alt": "gallery image"
+      "photographer": "Patrick Dolande",
+      "alt": "Toasted almond crunch ice cream, amaretti, olive oil"
     },
     {
       "photo": "/photos/lazy susan blak.jpg",
