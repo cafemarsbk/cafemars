@@ -1,5 +1,9 @@
 {
   "photoentry": [
+    {},
+    {},
+    {},
+    {},
     {
       "photo": "/Interior/exterior photos/format-1914-52.jpg",
       "photographer": "Nick Glimenakis",
@@ -30,7 +34,11 @@
       "photographer": "Nick Glimenakis",
       "alt": "Neon room arch"
     },
-    {},
+    {
+      "photo": "/Interior/exterior photos/format-1914-47.jpg",
+      "photographer": "Nick Glimenakis",
+      "alt": "Back yard"
+    },
     {},
     {
       "photo": "/Food photos/July_NewYorker_C10057-Edit.jpg",
