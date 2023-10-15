@@ -53,7 +53,8 @@
     },
     {
       "photo": "/photos/gibson splash.jpg",
-      "alt": "gallery image"
+      "photographer": "Patrick Dolande",
+      "alt": "Gibson"
     },
     {
       "photo": "/photos/genovese.jpg",
