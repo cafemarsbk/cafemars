@@ -1,6 +1,10 @@
 {
   "photoentry": [
-    {},
+    {
+      "photo": "/Interior/exterior photos/format-1914-18.jpg",
+      "photographer": "Nick Glimenakis",
+      "alt": "Green and yellow"
+    },
     {
       "photo": "/Interior/exterior photos/format-1914-20.jpg",
       "photographer": "Nick Glimenakis",
