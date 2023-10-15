@@ -1,7 +1,11 @@
 {
   "photoentry": [
     {},
-    {},
+    {
+      "photo": "/Interior/exterior photos/format-1914-35.jpg",
+      "photographer": "Nick Glimenakis",
+      "alt": "Neon brick contrast"
+    },
     {
       "photo": "/Interior/exterior photos/format-1914-36.jpg",
       "photographer": "Nick Glimenakis",
