@@ -1,6 +1,10 @@
 {
   "photoentry": [
-    {},
+    {
+      "photo": "/Interior/exterior photos/format-1914-23.jpg",
+      "photographer": "Nick Glimenakis",
+      "alt": "Mars bar"
+    },
     {
       "photo": "/Interior/exterior photos/format-1914-35.jpg",
       "photographer": "Nick Glimenakis",
