@@ -8,8 +8,9 @@
     },
     {
       "photo": "/photos/blood orange drizzle.jpg",
-      "description": "Delicious ice cream",
-      "alt": "Ice Cream"
+      "photographer": "Patrick Dolande",
+      "description": "",
+      "alt": "Blood orange italian ice, prosecco jellies, Campari"
     },
     {
       "photo": "/photos/parma bass.jpg",
