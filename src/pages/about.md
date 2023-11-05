@@ -1,7 +1,7 @@
 ---
 layout: ../layouts/MarkdownLayout.astro
 draft: false
-title: about
+title: Info
 mainImage: /photos/fulltable1.jpg
 ---
 
