@@ -159,7 +159,9 @@
     },
     {
       "title": "Feast of the Seven Fishes",
-      "isDraft": true
+      "isDraft": false,
+      "pictureOrText": true,
+      "menuPicture": "/seven fishes 2023 menu launch.png"
     }
   ]
 }
