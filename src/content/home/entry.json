@@ -1,17 +1,17 @@
 {
+  "title": "Home",
+  "image": "/facadewithtext.png",
+  "hoverImage": "/nightfullbuilding_capeesh.jpg",
+  "hideAbout": false,
   "about": [
     {
-      "body": "Café Mars is an unusual Italian restaurant. We love vegetables, seafood, pasta, and ice cream. Tradition is important to us, but so is fun. Come get weird with us!\n",
+      "body": "From December 20-23, we are serving a very special menu for one of our favorite Italian-American traditions: \n\nFeast of the Seven Fishes! \n\nHead to the menu section for more information on food, and then [book it](https://www.exploretock.com/cafemarsbk/ \"book it!\")! \n",
       "button": "About",
       "link": "/about"
     }
   ],
-  "image": "/facadewithtext.png",
-  "hoverImage": "/nightfullbuilding_capeesh.jpg",
-  "hideAbout": true,
   "hideDetails": true,
-  "hideCTA": true,
   "details": [],
-  "cta": [],
-  "title": "Home"
+  "hideCTA": true,
+  "cta": []
 }
