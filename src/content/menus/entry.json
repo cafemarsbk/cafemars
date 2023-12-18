@@ -118,6 +118,24 @@
       ]
     },
     {
+      "title": "Beverages",
+      "pictureOrText": true,
+      "menuPicture": "/BTG 12_2.png",
+      "subsection": [
+        {}
+      ]
+    },
+    {
+      "title": "Amaro & Grappa",
+      "pictureOrText": true,
+      "menuPicture": "/amaro127.png"
+    },
+    {
+      "title": "Bottles",
+      "pictureOrText": true,
+      "menuPicture": "/BTB 12_8.png"
+    },
+    {
       "title": "Dessert",
       "isDraft": true,
       "pictureOrText": true,
@@ -145,24 +163,6 @@
           ]
         }
       ]
-    },
-    {
-      "title": "Beverages",
-      "pictureOrText": true,
-      "menuPicture": "/BTG 12_2.png",
-      "subsection": [
-        {}
-      ]
-    },
-    {
-      "title": "Amaro & Grappa",
-      "pictureOrText": true,
-      "menuPicture": "/amaro127.png"
-    },
-    {
-      "title": "Bottles",
-      "pictureOrText": true,
-      "menuPicture": "/BTB 12_8.png"
     }
   ]
 }
