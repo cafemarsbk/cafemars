@@ -2,7 +2,7 @@
   "navigationItem": [
     {
       "name": "menus",
-      "link": "/menu/main"
+      "link": "/menu"
     },
     {
       "name": "gallery",
