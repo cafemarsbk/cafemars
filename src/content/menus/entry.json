@@ -2,6 +2,12 @@
   "title": "menus",
   "menuitem": [
     {
+      "title": "Feast of the Seven Fishes Tasting",
+      "isDraft": false,
+      "pictureOrText": true,
+      "menuPicture": "/seven fishes 2023 menu launch 3.png"
+    },
+    {
       "title": "Feast of the Seven Fishes a la carte",
       "pictureOrText": true,
       "menuPicture": "/seven fishes 2023 a la carte menu 2-Recovered.png",
@@ -113,6 +119,7 @@
     },
     {
       "title": "Dessert",
+      "isDraft": true,
       "pictureOrText": true,
       "menuPicture": "/After 127.png",
       "subsection": [
@@ -156,12 +163,6 @@
       "title": "Bottles",
       "pictureOrText": true,
       "menuPicture": "/BTB 12_8.png"
-    },
-    {
-      "title": "Feast of the Seven Fishes Tasting",
-      "isDraft": false,
-      "pictureOrText": true,
-      "menuPicture": "/seven fishes 2023 menu launch 3.png"
     }
   ]
 }
