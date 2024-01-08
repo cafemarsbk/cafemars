@@ -23,7 +23,7 @@ Absolutely! We are thrilled to have you as our guest, as long as there is enough
 
 **Can you modify my reservation for me?**
 
-We are a small team at Café Mars and do not have a dedicated reservationist. We kindly ask for changes in party size, time, or date to be modified in your Tock account under “Upcoming Reservations.” If that still doesn’t help, please call or email us. 
+We are a small team at Café Mars and do not have a dedicated reservationist. We kindly ask for changes in party size, time, or date to be modified in your OpenTable account. If that still doesn’t help, please call or email us. 
 
 **Do you have vegetarian or vegan options?**
 
@@ -31,7 +31,7 @@ At Café Mars, we love vegetables and they inspire much of our food. A good deal
 
 **Do you have gluten-free options?**
 
-There are usually some dishes that happen to be or can be made to be gluten-free. But as the Italian kitchen is held together by gluten, we cannot always guarantee a wide range of gluten-free dishes. All of the pasta sauces can be made with a GF dried pasta. 
+There are usually some dishes that happen to be or can be made to be gluten-free. But as the Italian kitchen is held together by gluten, we cannot always guarantee a wide range of gluten-free dishes. All of the pasta sauces can be made with housemade gluten-free pasta. We also serve a dried pasta that is suitable for Celiac diners. 
 
 **Can I book a table for more than 6 people?**
 
