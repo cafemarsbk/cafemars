@@ -27,7 +27,7 @@
     },
     {
       "title": "Dessert",
-      "isDraft": true,
+      "isDraft": false,
       "pictureOrText": true,
       "menuPicture": "/after 4.10.jpg",
       "subsection": [
