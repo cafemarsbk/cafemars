@@ -2,11 +2,6 @@
   "title": "menus",
   "menuitem": [
     {
-      "title": "Anything's Pastable x Café Mars",
-      "pictureOrText": true,
-      "menuPicture": "/anything pastable x cafe mars final menu.jpg"
-    },
-    {
       "title": "Main",
       "isDraft": false,
       "pictureOrText": true,
@@ -58,6 +53,11 @@
           ]
         }
       ]
+    },
+    {
+      "title": "Anything's Pastable x Café Mars",
+      "pictureOrText": true,
+      "menuPicture": "/anything pastable x cafe mars final menu.jpg"
     }
   ]
 }
