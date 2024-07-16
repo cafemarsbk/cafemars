@@ -16,16 +16,6 @@
       ]
     },
     {
-      "title": "Amaro & Grappa",
-      "pictureOrText": true,
-      "menuPicture": "/CM Amari 7_12.jpg"
-    },
-    {
-      "title": "Bottles",
-      "pictureOrText": true,
-      "menuPicture": "/CM BTB 7_14.jpg"
-    },
-    {
       "title": "Dessert",
       "isDraft": false,
       "pictureOrText": true,
@@ -53,6 +43,16 @@
           ]
         }
       ]
+    },
+    {
+      "title": "Amaro & Grappa",
+      "pictureOrText": true,
+      "menuPicture": "/CM Amari 7_12.jpg"
+    },
+    {
+      "title": "Bottles",
+      "pictureOrText": true,
+      "menuPicture": "/CM BTB 7_14.jpg"
     }
   ]
 }
