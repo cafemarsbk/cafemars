@@ -1,6 +1,12 @@
 {
   "photoentry": [
     {
+      "photo": "/dotsabove.jpg",
+      "photographer": "Patrick Dolande",
+      "description": "Neapolitan dippin' dots!",
+      "alt": "Neapolitan dippin' dots!"
+    },
+    {
       "photo": "/Food photos/July_NewYorker_C10057-Edit.jpg",
       "photographer": "Jenny Huang",
       "description": "",
