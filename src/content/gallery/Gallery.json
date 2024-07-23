@@ -18,12 +18,6 @@
       "alt": "Neon sign"
     },
     {
-      "photo": "/photos/blood orange drizzle.jpg",
-      "photographer": "Patrick Dolande",
-      "description": "",
-      "alt": "Blood orange italian ice, prosecco jellies, Campari"
-    },
-    {
       "photo": "/Interior/exterior photos/format-1914-50.jpg",
       "photographer": "Nick Glimenakis",
       "alt": "Café Mars exterior"
@@ -49,9 +43,10 @@
       "alt": "Garlic knot monkey bread"
     },
     {
-      "photo": "/photos/pancake half.jpg",
+      "photo": "/artichokeclose.jpg",
       "photographer": "Patrick Dolande",
-      "alt": "Pancake primavera"
+      "description": "Stuffed artichoke raviolo",
+      "alt": "Stuffed artichoke raviolo"
     },
     {
       "photo": "/Interior/exterior photos/format-1914-23.jpg",
@@ -146,6 +141,12 @@
       "photo": "/Interior/exterior photos/format-1914-14.jpg",
       "photographer": "Nick Glimenakis",
       "alt": "Corner bar"
+    },
+    {
+      "photo": "/photos/blood orange drizzle.jpg",
+      "photographer": "Patrick Dolande",
+      "description": "",
+      "alt": "Blood orange italian ice, prosecco jellies, Campari"
     },
     {
       "photo": "/Interior/exterior photos/format-1914-49.jpg",
