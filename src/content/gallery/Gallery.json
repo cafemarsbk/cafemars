@@ -51,8 +51,9 @@
     },
     {
       "photo": "/photos/isola bella purple.jpg",
-      "photographer": "Patrick Dolande",
-      "alt": "Isola Bella"
+      "photographer": "",
+      "description": "Isola Bella (rhum agricole & grappa, pistachio, Marsala, orange)",
+      "alt": "Isola Bella (rhum agricole & grappa, pistachio, Marsala, orange)"
     },
     {
       "photo": "/2024 photos/bluedrinkonyellowlo.jpg",
