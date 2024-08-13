@@ -119,7 +119,8 @@
     },
     {
       "photo": "/photos/monkey bread.jpg",
-      "photographer": "Patrick Dolande",
+      "photographer": "",
+      "description": "Garlic knot monkey bread",
       "alt": "Garlic knot monkey bread"
     },
     {
