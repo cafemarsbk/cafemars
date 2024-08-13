@@ -1,6 +1,12 @@
 {
   "photoentry": [
     {
+      "photo": "/2024 photos/beetcloserlo.png",
+      "photographer": "Patrick Dolande",
+      "description": "beet francese, yuzu, chickpeas, gorgonzola",
+      "alt": "beet francese, yuzu, chickpeas, gorgonzola"
+    },
+    {
       "photo": "/dotsabove.jpg",
       "photographer": "Patrick Dolande",
       "description": "Neapolitan dippin' dots!",
