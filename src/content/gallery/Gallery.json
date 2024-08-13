@@ -136,8 +136,9 @@
     },
     {
       "photo": "/photos/genovese.jpg",
-      "photographer": "Patrick Dolande",
-      "alt": "Triangle penne, onion gravy, beef cheek, Pecorino"
+      "photographer": "",
+      "description": "Triangle penne, beef cheek Genovese, Pecorino",
+      "alt": "Triangle penne, beef cheek Genovese, Pecorino"
     },
     {
       "photo": "/photos/almond ice cream.jpg",
