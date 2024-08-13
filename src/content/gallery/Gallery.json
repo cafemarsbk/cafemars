@@ -67,8 +67,9 @@
     },
     {
       "photo": "/Interior/exterior photos/format-1914-23.jpg",
-      "photographer": "Nick Glimenakis",
-      "alt": "Mars bar"
+      "photographer": "",
+      "description": "Café Mars bar",
+      "alt": "Café Mars bar"
     },
     {
       "photo": "/Interior/exterior photos/neonboothswide.jpg",
