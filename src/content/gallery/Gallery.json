@@ -1,6 +1,10 @@
 {
   "photoentry": [
-    {},
+    {
+      "photo": "/2024 photos/pizzaiolosidelo.jpg",
+      "description": "Steak pizzaiolo, marinated tomatoes, liquid parmesan, penne fries",
+      "alt": "Steak pizzaiolo, marinated tomatoes, liquid parmesan, penne fries"
+    },
     {},
     {},
     {},
