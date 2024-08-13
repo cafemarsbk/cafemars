@@ -1,5 +1,9 @@
 {
   "photoentry": [
+    {},
+    {},
+    {},
+    {},
     {
       "photo": "/2024 photos/ankimolo.jpg",
       "description": "monkfish liver, white balsamic, nashi mostarda",
@@ -35,7 +39,11 @@
       "description": "Grilled Kabocha squash, farro verde, cape gooseberry",
       "alt": "Grilled Kabocha squash, farro verde, cape gooseberry"
     },
-    {},
+    {
+      "photo": "/2024 photos/negronisqueezelo.jpg",
+      "description": "Negroni squeezarato",
+      "alt": "Negroni squeezarato"
+    },
     {
       "photo": "/2024 photos/beetcloserlo.png",
       "photographer": "",
