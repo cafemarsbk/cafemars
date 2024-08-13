@@ -27,9 +27,9 @@
       "alt": "Corner bar"
     },
     {
-      "photo": "/Interior/exterior photos/neonboothswide.jpg",
-      "photographer": "Patrick Dolande",
-      "alt": "Daytime neon room"
+      "photo": "/Interior/exterior photos/format-1914-36.jpg",
+      "photographer": "Nick Glimenakis",
+      "alt": "Brick room"
     },
     {
       "photo": "/photos/parma bass.jpg",
@@ -38,9 +38,10 @@
       "alt": "Parmesan-cured fluke crudo, crazy water"
     },
     {
-      "photo": "/2024 photos/olive cake.jpg",
-      "description": "olive marble cake, cherries, Saba",
-      "alt": "olive marble cake, cherries, Saba"
+      "photo": "/dotsabove.jpg",
+      "photographer": "",
+      "description": "Neapolitan dippin' dots!",
+      "alt": "Neapolitan ice cream from the future, blackberry, vanilla, pistachio"
     },
     {
       "photo": "/artichokeclose.jpg",
@@ -64,14 +65,14 @@
       "alt": "Rhubarb spritz"
     },
     {
-      "photo": "/Interior/exterior photos/format-1914-36.jpg",
-      "photographer": "Nick Glimenakis",
-      "alt": "Brick room"
-    },
-    {
       "photo": "/Interior/exterior photos/format-1914-23.jpg",
       "photographer": "Nick Glimenakis",
       "alt": "Mars bar"
+    },
+    {
+      "photo": "/Interior/exterior photos/neonboothswide.jpg",
+      "photographer": "Patrick Dolande",
+      "alt": "Daytime neon room"
     },
     {
       "photo": "/Interior/exterior photos/format-1914-47.jpg",
@@ -84,15 +85,14 @@
       "alt": "Inside-out Italian beef, giardiniera, pepperoncini dip"
     },
     {
+      "photo": "/2024 photos/swordfishlo.jpg",
+      "description": "Grilled swordfish, broccolini, Italian XO, crunchy polenta",
+      "alt": "Grilled swordfish, broccolini, Italian XO, crunchy polenta"
+    },
+    {
       "photo": "/2024 photos/porktarthighanglelo.jpg",
       "description": "Pork-tart, Marsala pork cheek, fennel, orange, saffron",
       "alt": "Pork-tart, Marsala pork cheek, fennel, orange, saffron"
-    },
-    {
-      "photo": "/dotsabove.jpg",
-      "photographer": "",
-      "description": "Neapolitan dippin' dots!",
-      "alt": "Neapolitan ice cream from the future, blackberry, vanilla, pistachio"
     },
     {
       "photo": "/photos/gibson splash.jpg",
@@ -113,11 +113,6 @@
       "photo": "/photos/waves.jpg",
       "photographer": "Patrick Dolande",
       "alt": "Waves, shrimp, peas, mint, Calabrian chili"
-    },
-    {
-      "photo": "/2024 photos/swordfishlo.jpg",
-      "description": "Grilled swordfish, broccolini, Italian XO, crunchy polenta",
-      "alt": "Grilled swordfish, broccolini, Italian XO, crunchy polenta"
     },
     {
       "photo": "/photos/monkey bread.jpg",
@@ -165,6 +160,11 @@
       "photographer": "",
       "description": "beet francese, yuzu, chickpeas, gorgonzola",
       "alt": "beet francese, yuzu, chickpeas, gorgonzola"
+    },
+    {
+      "photo": "/2024 photos/olive cake.jpg",
+      "description": "olive marble cake, cherries, Saba",
+      "alt": "olive marble cake, cherries, Saba"
     },
     {
       "photo": "/photos/blood orange drizzle.jpg",
