@@ -142,7 +142,8 @@
     },
     {
       "photo": "/photos/almond ice cream.jpg",
-      "photographer": "Patrick Dolande",
+      "photographer": "",
+      "description": "Toasted almond crunch ice cream, amaretti, olive oil",
       "alt": "Toasted almond crunch ice cream, amaretti, olive oil"
     },
     {
