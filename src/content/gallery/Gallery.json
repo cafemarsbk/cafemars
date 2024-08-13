@@ -5,7 +5,11 @@
       "description": "Spritzes, your way!",
       "alt": "Spritzes, your way!"
     },
-    {},
+    {
+      "photo": "/2024 photos/swordfishlo.jpg",
+      "description": "Grilled swordfish, broccolini, Italian XO, crunchy polenta",
+      "alt": "Grilled swordfish, broccolini, Italian XO, crunchy polenta"
+    },
     {
       "photo": "/2024 photos/pizzaiolosidelo.jpg",
       "description": "Steak pizzaiolo, marinated tomatoes, liquid parmesan, penne fries",
