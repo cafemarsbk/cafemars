@@ -39,7 +39,7 @@ There are usually some dishes that happen to be or can be made to be gluten-free
 
 You sure can! That being said, we are a small restaurant with a small kitchen. Due to the layout of Café Mars, larger parties effectively become a semi-private event, filling the entire back room and have a dedicated server. In order to ensure the best possible experience for you, our staff, and the rest of the guests, larger parties are offered to choose from an array of set (but customizable) menus. And while we wish we could host large parties on short notice, the farther in advance you can let us know, the more likely we will have space. Less than two weeks is unlikely (but worth a try!), three or four weeks has a good chance, and over a month is a guarantee). To book or get more information, please drop a line to [info@cafemarsbk.com](mailto:info@cafemarsbk.com "info@cafemarsbk.com")!
 
-Does **Café Mars offer gift certificates?!**
+**Does** **Café Mars offer gift certificates?!**
 
 Absolutely! We offer paper gift certificates in any amount. They can be picked up at the restaurant or mailed to you. It is also possible to simply pre-pay for someone's meal over the phone by credit card. Either way, please send a message to [info@cafemarsbk.com](mailto:info@cafemarsbk.com "info@cafemarsbk.com") for more information.
 
