@@ -18,7 +18,8 @@
       "links": [
         {
           "name": "Website",
-          "url": "www.massimomongiardo.com"
+          "url": "http://www.massimomongiardo.com",
+          "type": ""
         },
         {
           "name": "Instagram",
