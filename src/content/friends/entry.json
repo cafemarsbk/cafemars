@@ -5,6 +5,10 @@
       "image": "/Other author wordmark.png",
       "links": [
         {
+          "name": "Website",
+          "url": "http://www.otherauthor.com"
+        },
+        {
           "name": "Instagram",
           "url": "https://www.instagram.com/other.author.architecture/",
           "type": ""
