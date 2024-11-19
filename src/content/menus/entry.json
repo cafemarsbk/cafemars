@@ -2,6 +2,11 @@
   "title": "menus",
   "menuitem": [
     {
+      "title": "Tropical Italian?!",
+      "pictureOrText": true,
+      "menuPicture": "/tropical italian menu.jpg"
+    },
+    {
       "title": "Main",
       "isDraft": false,
       "pictureOrText": true,
