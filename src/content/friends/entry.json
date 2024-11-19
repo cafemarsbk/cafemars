@@ -2,7 +2,14 @@
   "item": [
     {
       "title": "",
-      "image": "/Other author wordmark.png"
+      "image": "/Other author wordmark.png",
+      "links": [
+        {
+          "name": "IG",
+          "url": "https://www.instagram.com/other.author.architecture/",
+          "type": ""
+        }
+      ]
     },
     {
       "title": "",
