@@ -2,11 +2,6 @@
   "title": "menus",
   "menuitem": [
     {
-      "title": "Tropical Italian?!",
-      "pictureOrText": true,
-      "menuPicture": "/tropical italian menu.jpg"
-    },
-    {
       "title": "Main",
       "isDraft": false,
       "pictureOrText": true,
@@ -58,6 +53,11 @@
       "title": "Bottles",
       "pictureOrText": true,
       "menuPicture": "/CM BTB 11_10.jpg"
+    },
+    {
+      "title": "Tropical Italian?!",
+      "pictureOrText": true,
+      "menuPicture": "/tropical italian menu.jpg"
     }
   ]
 }
