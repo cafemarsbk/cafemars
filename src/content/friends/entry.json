@@ -2,22 +2,6 @@
   "item": [
     {
       "title": "",
-      "image": "/Other author wordmark.png",
-      "details": "Other Author, founded in 2024 by Clare Hačko, is an architecture/design firm focusing on hospitality spaces. Clare (previously of Format Architecture Office) was positively instrumental in seeing the vision of Café Mars and creating the space that we are very fortunate to be in today. She is an absolutely joy to work with and we cannot recommend her enough. If you're looking for someone to turn your restaurant or bar vision into reality, look no further than Other Author!",
-      "links": [
-        {
-          "name": "Website",
-          "url": "http://www.otherauthor.com"
-        },
-        {
-          "name": "Instagram",
-          "url": "https://www.instagram.com/other.author.architecture/",
-          "type": ""
-        }
-      ]
-    },
-    {
-      "title": "",
       "image": "/photos/MassimoMongiardo---Logo.png",
       "details": "Wow, did we need Massimo Mongiardo. All of the visuals of Café Mars were collaboratively conjured up with the mastery of Massi. He took some amateur sketches and combined them with his own skills and imagination to produce our logo, menus, illustrations (on the roll gates and the restroom walls), posters, and font(!). Massimo tied everything together. He knows how to make sense, and that is the highest of praise. Massimo Mongiardo has done other wonderful work for restaurants like Bonnie's and Win Son. He knows how to do just the right thing for each project, and can do it all, so if your restaurant needs the full works, beg and plead for him to get onboard. He is also an exceptional illustrator and muralist, if you just need some original art, large or small. ",
       "links": [
@@ -74,6 +58,22 @@
         {
           "name": "Instagram",
           "url": "https://www.instagram.com/format.nyc/?hl=en",
+          "type": ""
+        }
+      ]
+    },
+    {
+      "title": "",
+      "image": "/Other author wordmark.png",
+      "details": "Other Author, founded in 2024 by Clare Hačko, is an architecture/design firm focusing on hospitality spaces. Clare (previously of Format Architecture Office) was positively instrumental in seeing the vision of Café Mars and creating the space that we are very fortunate to be in today. She is an absolutely joy to work with and we cannot recommend her enough. If you're looking for someone to turn your restaurant or bar vision into reality, look no further than Other Author!",
+      "links": [
+        {
+          "name": "Website",
+          "url": "http://www.otherauthor.com"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/other.author.architecture/",
           "type": ""
         }
       ]
