@@ -2,7 +2,7 @@
   "title": "Home",
   "image": "/facadewithtext.png",
   "hoverImage": "/nightfullbuilding_capeesh.jpg",
-  "hideAbout": false,
+  "hideAbout": true,
   "about": [
     {
       "body": "Find all the info in the [menu](https://cafemarsbk.com/menu/feast%20of%20the%20seven%20fishes/ \"menu\") and [book](https://www.exploretock.com/cafemarsbk/ \"book it!\") options!\n",
@@ -10,7 +10,7 @@
       "link": "/menu/feast%20of%20the%20seven%20fishes/"
     }
   ],
-  "hideDetails": true,
+  "hideDetails": false,
   "details": [],
   "hideCTA": true,
   "cta": []
