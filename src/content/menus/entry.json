@@ -55,9 +55,10 @@
       "menuPicture": "/CM BTB 11_10.jpg"
     },
     {
-      "title": "Tropical Italian",
-      "pictureOrText": true,
-      "menuPicture": "/tropical italian menu.jpg"
+      "title": "Seven Fishes",
+      "isDraft": true,
+      "pictureOrText": false,
+      "menuPicture": ""
     }
   ]
 }
