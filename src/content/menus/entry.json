@@ -8,6 +8,12 @@
       "menuPicture": "/CM Main 11.23 Website.jpg"
     },
     {
+      "title": "Seven Fishes",
+      "isDraft": false,
+      "pictureOrText": true,
+      "menuPicture": "/seven fishes 2024 website menu.png"
+    },
+    {
       "title": "Beverages",
       "pictureOrText": true,
       "menuPicture": "/CM BTG 11_13.jpg",
@@ -53,12 +59,6 @@
       "title": "Bottles",
       "pictureOrText": true,
       "menuPicture": "/CM BTB 11_10.jpg"
-    },
-    {
-      "title": "Seven Fishes",
-      "isDraft": false,
-      "pictureOrText": true,
-      "menuPicture": "/seven fishes 2024 website menu.png"
     }
   ]
 }
