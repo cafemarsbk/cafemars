@@ -56,7 +56,7 @@
     },
     {
       "title": "Seven Fishes",
-      "isDraft": true,
+      "isDraft": false,
       "pictureOrText": true,
       "menuPicture": "/seven fishes 2024 menu.png"
     }
