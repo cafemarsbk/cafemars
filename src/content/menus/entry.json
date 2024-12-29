@@ -8,35 +8,6 @@
       "menuPicture": "/CM Main 11.23 Website.jpg"
     },
     {
-      "title": "Dessert",
-      "isDraft": false,
-      "pictureOrText": true,
-      "menuPicture": "/CM After Menu 11_10.jpg",
-      "subsection": [
-        {
-          "title": "After",
-          "pastaImage": "/photos/snacks_o8cu6x.svg",
-          "menuItems": [
-            {
-              "name": "orange Italian ice",
-              "description": "dolce di bay, pistachio crumble",
-              "price": 11
-            },
-            {
-              "name": "fresh strawberries ",
-              "description": "mint, rosé zabaglione",
-              "price": 12
-            },
-            {
-              "name": "olive marble cake",
-              "description": "cherries, saba, whipped cream",
-              "price": 11
-            }
-          ]
-        }
-      ]
-    },
-    {
       "title": "Beverages",
       "pictureOrText": true,
       "menuPicture": "/CM BTG 11_13.jpg",
