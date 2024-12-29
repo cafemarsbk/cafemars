@@ -8,14 +8,6 @@
       "menuPicture": "/CM Main 11.23 Website.jpg"
     },
     {
-      "title": "Beverages",
-      "pictureOrText": true,
-      "menuPicture": "/CM BTG 11_13.jpg",
-      "subsection": [
-        {}
-      ]
-    },
-    {
       "title": "Dessert",
       "isDraft": false,
       "pictureOrText": true,
@@ -42,6 +34,14 @@
             }
           ]
         }
+      ]
+    },
+    {
+      "title": "Beverages",
+      "pictureOrText": true,
+      "menuPicture": "/CM BTG 11_13.jpg",
+      "subsection": [
+        {}
       ]
     },
     {
