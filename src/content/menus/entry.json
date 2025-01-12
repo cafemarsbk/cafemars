@@ -27,7 +27,7 @@
     },
     {
       "title": "Global Italian No. 1: Chicago",
-      "isDraft": true,
+      "isDraft": false,
       "pictureOrText": false,
       "menuPicture": "/chicago global menu.png"
     }
