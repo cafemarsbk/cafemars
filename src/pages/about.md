@@ -13,7 +13,7 @@ Steeped in Italian history, Café Mars occupies a former pasta factory and Itali
 
 Whereas many Italian restaurants tend to use a magnifying glass to zoom in on specific regions and traditions, we instead reach for a telescope. Café Mars looks at the totality of Italian cuisine, gaining inspiration from every region of Italy, and even beyond the boot. From the port cities of North and South America, to the Itameshi cuisine of Japan, the universal love of Italian cooking has seen it travel to every corner of the world, and reinterpreted wherever it went. That's our Italy. Be it food or drink, our menus shine a light on overlooked classics and unexpected flavors that aim to reframe what it means to go out for Italian.
 
-Café Mars is very proud to have been awarded a Bib Gourmand and Best Service (NYC) by Michelin in 2023 and to have been named an OpenTable Icon in 2024.
+Café Mars is very proud to have been awarded a Bib Gourmand (2023/24) and Best Service NYC (2023) by Michelin in 2023 and to have been named an OpenTable Icon and Diner's Choice in 2024.
 
 ![](/nightwindowfront.png)
 
