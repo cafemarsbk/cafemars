@@ -26,9 +26,9 @@
       "menuPicture": "/CM BTB 1_22_25.jpg"
     },
     {
-      "title": "Global Italian No. 1: Chicago",
-      "isDraft": false,
-      "pictureOrText": true,
+      "title": "Global Italian No. 2: Eritrea & Ethiopia",
+      "isDraft": true,
+      "pictureOrText": false,
       "menuPicture": "/Chicago dinner menu final.jpg"
     }
   ]
