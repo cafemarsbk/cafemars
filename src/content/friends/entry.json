@@ -32,7 +32,7 @@
         },
         {
           "name": "Email",
-          "url": "aria@cornerboothhospitality.com",
+          "url": "mailto: aria@cornerboothhospitality.com",
           "type": "mailto:"
         }
       ]
