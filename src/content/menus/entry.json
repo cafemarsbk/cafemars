@@ -27,9 +27,9 @@
     },
     {
       "title": "Global Italian No. 5:  New England",
-      "isDraft": true,
+      "isDraft": false,
       "pictureOrText": true,
-      "menuPicture": "/New Orleeans web globl.jpg"
+      "menuPicture": "/Global New England website menu.jpg"
     }
   ]
 }
