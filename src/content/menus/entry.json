@@ -2,15 +2,15 @@
   "title": "menus",
   "menuitem": [
     {
-      "title": "Mother's Day Brunch",
-      "pictureOrText": true,
-      "menuPicture": "/mother's day brunch 2025.jpg"
-    },
-    {
       "title": "Main",
       "isDraft": false,
       "pictureOrText": true,
       "menuPicture": "/CM Main 5.7 website.jpg"
+    },
+    {
+      "title": "Mother's Day Brunch",
+      "pictureOrText": true,
+      "menuPicture": "/mother's day brunch 2025.jpg"
     },
     {
       "title": "Drinks",
