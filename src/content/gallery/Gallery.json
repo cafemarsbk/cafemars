@@ -68,23 +68,6 @@
       "alt": "Blue Meanie (mezcal, kiwi, absinthe, blue curaçao)"
     },
     {
-      "photo": "/Interior/exterior photos/format-1914-23.jpg",
-      "photographer": "",
-      "description": "Café Mars bar",
-      "alt": "Café Mars bar"
-    },
-    {
-      "photo": "/Interior/exterior photos/neonboothswide.jpg",
-      "photographer": "",
-      "alt": "Dining room"
-    },
-    {
-      "photo": "/Interior/exterior photos/format-1914-47.jpg",
-      "photographer": "",
-      "description": "Back yard",
-      "alt": "Back yard"
-    },
-    {
       "photo": "/2025 Photos/bagnachaudaclose.jpg",
       "photographer": "",
       "description": "bagna chowda, marinated mussels, salt potatoes, tarragon",
@@ -102,19 +85,21 @@
       "alt": "crawfish boil aragostini, garlic, potatoes, celery, orange"
     },
     {
-      "photo": "/photos/gibson splash.jpg",
+      "photo": "/Interior/exterior photos/format-1914-23.jpg",
       "photographer": "",
-      "alt": "Gibson "
+      "description": "Café Mars bar",
+      "alt": "Café Mars bar"
     },
     {
-      "photo": "/2024 photos/negronisqueezelo.jpg",
-      "description": "Negroni squeezarato",
-      "alt": "Negroni squeezarato"
+      "photo": "/Interior/exterior photos/neonboothswide.jpg",
+      "photographer": "",
+      "alt": "Dining room"
     },
     {
-      "photo": "/2024 photos/spritzgrouplo.jpg",
-      "description": "Spritzes, your way!",
-      "alt": "Spritzes, your way!"
+      "photo": "/Interior/exterior photos/format-1914-47.jpg",
+      "photographer": "",
+      "description": "Back yard",
+      "alt": "Back yard"
     },
     {
       "photo": "/2024 photos/porktarthighanglelo.jpg",
@@ -132,6 +117,21 @@
       "photographer": "",
       "description": "pepper & egg agnolotti, roasted bells, walnut-cruschi, cured egg yolk",
       "alt": "pepper & egg agnolotti, roasted bells, walnut-cruschi, cured egg yolk"
+    },
+    {
+      "photo": "/photos/gibson splash.jpg",
+      "photographer": "",
+      "alt": "Gibson "
+    },
+    {
+      "photo": "/2024 photos/negronisqueezelo.jpg",
+      "description": "Negroni squeezarato",
+      "alt": "Negroni squeezarato"
+    },
+    {
+      "photo": "/2024 photos/spritzgrouplo.jpg",
+      "description": "Spritzes, your way!",
+      "alt": "Spritzes, your way!"
     },
     {
       "photo": "/Interior/exterior photos/format-1914-49.jpg",
