@@ -27,9 +27,9 @@
     },
     {
       "title": "Global Italian No. 6:  Argentina",
-      "isDraft": true,
+      "isDraft": false,
       "pictureOrText": true,
-      "menuPicture": "/Global New England website menu.jpg"
+      "menuPicture": "/Argentina menu website.jpg"
     }
   ]
 }
