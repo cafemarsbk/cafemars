@@ -4,7 +4,7 @@
     {
       "title": "Main",
       "isDraft": false,
-      "pictureOrText": false,
+      "pictureOrText": true,
       "menuPicture": "/CM Main 7.9.25.jpg"
     },
     {
