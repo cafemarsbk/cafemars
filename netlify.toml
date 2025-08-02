@@ -1,6 +1,15 @@
 [build]
   publish = "dist"
   command = "npm run build"
+
+[build.environment]
+  # Force Node.js 18 LTS (pinning to <20 for plugin‑lighthouse compatibility)
+  NODE_VERSION = "18.20.8"
+
+[[plugins]]
+  package = "@netlify/plugin-lighthouse"
+  # (will resolve to whatever version is installed in your package.json; if it's v4.x you're already good)
+
 [[headers]]
   for = "/assets/*"
   [headers.values]
