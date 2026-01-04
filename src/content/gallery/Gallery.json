@@ -1,6 +1,11 @@
 {
   "photoentry": [
     {
+      "photo": "/girellowyellow.jpg",
+      "photographer": "Patrick Dolande",
+      "alt": "girelle, lemon, lemon, lemon, capers, basil"
+    },
+    {
       "photo": "/eggplantsuprematopnavy.jpg",
       "photographer": "Juan David Gracia",
       "alt": "eggplant suprema, mole tramontana, rice risotto, little salad"
