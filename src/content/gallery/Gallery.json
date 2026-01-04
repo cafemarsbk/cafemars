@@ -1,6 +1,11 @@
 {
   "photoentry": [
     {
+      "photo": "/babyaki.jpg",
+      "photographer": "Patrick Dolande",
+      "alt": "baba-yaki, toasted rice, sencha, fennel candy"
+    },
+    {
       "photo": "/aragostini.jpg",
       "photographer": "Patrick Dolande",
       "alt": " LA crawfish boil aragostini"
