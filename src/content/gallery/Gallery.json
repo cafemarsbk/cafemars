@@ -1,6 +1,11 @@
 {
   "photoentry": [
     {
+      "photo": "/tempuramista.jpg",
+      "photographer": "Patrick Dolande",
+      "alt": "tempura mista, pumpkin & cippolini, bagna cauda"
+    },
+    {
       "photo": "/swordfishskewerfar.jpg",
       "photographer": "Patrick Dolande",
       "alt": "grilled swordfish, black olive teriyaki, fennel-orange-pine nut"
