@@ -1,6 +1,11 @@
 {
   "photoentry": [
     {
+      "photo": "/bigolipiefriedchicken.jpg",
+      "photographer": "Patrick Dolande",
+      "alt": "bigoli pesto pie, fried chicken"
+    },
+    {
       "photo": "/chickenliverversacemichelin.jpeg",
       "photographer": "Patrick Dolande",
       "alt": "chicken liver Versace, Calabrian flavors"
