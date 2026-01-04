@@ -1,6 +1,11 @@
 {
   "photoentry": [
     {
+      "photo": "/aragostini.jpg",
+      "photographer": "Patrick Dolande",
+      "alt": " LA crawfish boil aragostini"
+    },
+    {
       "photo": "/ankakehigh.jpg",
       "photographer": "Patrick Dolande",
       "alt": "Ankake bucatini, pepperoni, crimini, Worcestershire"
