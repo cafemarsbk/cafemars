@@ -1,6 +1,11 @@
 {
   "photoentry": [
     {
+      "photo": "/rotalini.jpg",
+      "photographer": "Patrick Dolande",
+      "alt": "rotalini, broccoli rabe & provolone, long hot-braised pork cheek"
+    },
+    {
       "photo": "/musselsriggies.jpg",
       "photographer": "Patrick Dolande",
       "alt": "riggies, mussels, sweet & hot peppers"
