@@ -1,6 +1,11 @@
 {
   "photoentry": [
     {
+      "photo": "/chocICsandwich.jpg",
+      "photographer": "Patrick Dolande",
+      "alt": "chocolate & concerto ice cream sandwich, candied barley"
+    },
+    {
       "photo": "/bigolipiefriedchicken.jpg",
       "photographer": "Patrick Dolande",
       "alt": "bigoli pesto pie, fried chicken"
