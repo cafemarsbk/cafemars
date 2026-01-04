@@ -1,6 +1,11 @@
 {
   "photoentry": [
     {
+      "photo": "/musselsriggies.jpg",
+      "photographer": "Patrick Dolande",
+      "alt": "riggies, mussels, sweet & hot peppers"
+    },
+    {
       "photo": "/milanesasuizamichelin.jpeg",
       "photographer": "Patrick Dolande",
       "alt": "milanesa suiza, shuffle potatoes"
