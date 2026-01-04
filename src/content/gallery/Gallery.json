@@ -1,6 +1,11 @@
 {
   "photoentry": [
     {
+      "photo": "/steakangelo2.jpg",
+      "photographer": "Juan David Gracia",
+      "alt": "steak Angelo, Cooper Sharp, garlic croutons, celery"
+    },
+    {
       "photo": "/shrimpfradiavoloside.jpg",
       "photographer": "Patrick Dolande",
       "alt": "jumbo shrimp fra diavolo, Utica greens, hash brown"
