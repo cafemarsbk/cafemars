@@ -1,46 +1,6 @@
 {
   "photoentry": [
     {
-      "photo": "/milanesasuizamichelin2.jpeg",
-      "photographer": "Patrick Dolande",
-      "alt": "milanesa suiza, souffle potatoes"
-    },
-    {
-      "photo": "/tempuramista.jpg",
-      "photographer": "Patrick Dolande",
-      "alt": "tempura mista, pumpkin & cippolini, bagna cauda"
-    },
-    {
-      "photo": "/steakangelo2.jpg",
-      "photographer": "Juan David Gracia",
-      "alt": "steak Angelo, Cooper Sharp, garlic croutons, celery"
-    },
-    {
-      "photo": "/musselsriggies.jpg",
-      "photographer": "Patrick Dolande",
-      "alt": "riggies, mussels, sweet & hot peppers"
-    },
-    {
-      "photo": "/japan spread flipped.jpg",
-      "photographer": "Patrick Dolande",
-      "alt": "Global Italian 10: Japan"
-    },
-    {
-      "photo": "/eggplantsuprematopnavy.jpg",
-      "photographer": "Juan David Gracia",
-      "alt": "eggplant suprema, mole tramontana, rice risotto, little salad"
-    },
-    {
-      "photo": "/chocICsandwich.jpg",
-      "photographer": "Patrick Dolande",
-      "alt": "chocolate & concerto ice cream sandwich, candied barley"
-    },
-    {
-      "photo": "/ankakehigh.jpg",
-      "photographer": "Patrick Dolande",
-      "alt": "Ankake bucatini, pepperoni, crimini, Worcestershire"
-    },
-    {
       "photo": "/rotalini.jpg",
       "photographer": "Patrick Dolande",
       "alt": "rotalini, broccoli rabe & provolone, long hot-braised pork cheek"
@@ -49,6 +9,11 @@
       "photo": "/2025 Photos/muffalettaclose.jpg",
       "description": "muffuletta dim sum, olive salad",
       "alt": "muffuletta dim sum, olive salad"
+    },
+    {
+      "photo": "/steakangelo2.jpg",
+      "photographer": "Juan David Gracia",
+      "alt": "steak Angelo, Cooper Sharp, garlic croutons, celery"
     },
     {
       "photo": "/Interior/exterior photos/format-1914-50.jpg",
@@ -69,9 +34,9 @@
       "alt": "Big blue dining room"
     },
     {
-      "photo": "/babyaki.jpg",
-      "photographer": "Patrick Dolande",
-      "alt": "baba-yaki, toasted rice, sencha, fennel candy"
+      "photo": "/eggplantsuprematopnavy.jpg",
+      "photographer": "Juan David Gracia",
+      "alt": "eggplant suprema, mole tramontana, rice risotto, little salad"
     },
     {
       "photo": "/Food photos/July_NewYorker_C10057-Edit.jpg",
@@ -101,9 +66,9 @@
       "alt": "Blue Meanie (mezcal, kiwi, absinthe, blue curaçao)"
     },
     {
-      "photo": "/2025 Photos/Cafe Mars Patrick Dolande Arbereshe egg blue background.jpg",
-      "description": "Arbëreshë easter basket, red quail eggs, jufka, trout roe",
-      "alt": "Arbëreshë easter basket, red quail eggs, jufka, trout roe"
+      "photo": "/babyaki.jpg",
+      "photographer": "Patrick Dolande",
+      "alt": "baba-yaki, toasted rice, sencha, fennel candy"
     },
     {
       "photo": "/shrimpfradiavoloside.jpg",
@@ -144,9 +109,9 @@
       "alt": "Parmesan-cured fluke crudo, crazy water"
     },
     {
-      "photo": "/bigolipiefriedchicken.jpg",
+      "photo": "/ankakehigh.jpg",
       "photographer": "Patrick Dolande",
-      "alt": "bigoli pesto pie, fried chicken"
+      "alt": "Ankake bucatini, pepperoni, crimini, Worcestershire"
     },
     {
       "photo": "/photos/gibson splash.jpg",
@@ -180,6 +145,11 @@
       "alt": "The sign, logo by Massimo Mongiardo"
     },
     {
+      "photo": "/tempuramista.jpg",
+      "photographer": "Patrick Dolande",
+      "alt": "tempura mista, pumpkin & cippolini, bagna cauda"
+    },
+    {
       "photo": "/chickenliverversacemichelin.jpeg",
       "photographer": "Patrick Dolande",
       "alt": "chicken liver Versace, Calabrian flavors"
@@ -191,6 +161,31 @@
       "alt": "Tropical fruit, fresh & dried, umeshu zabaglione"
     },
     {
+      "photo": "/bigolipiefriedchicken.jpg",
+      "photographer": "Patrick Dolande",
+      "alt": "bigoli pesto pie, fried chicken"
+    },
+    {
+      "photo": "/musselsriggies.jpg",
+      "photographer": "Patrick Dolande",
+      "alt": "riggies, mussels, sweet & hot peppers"
+    },
+    {
+      "photo": "/chocICsandwich.jpg",
+      "photographer": "Patrick Dolande",
+      "alt": "chocolate & concerto ice cream sandwich, candied barley"
+    },
+    {
+      "photo": "/japan spread flipped.jpg",
+      "photographer": "Patrick Dolande",
+      "alt": "Global Italian 10: Japan"
+    },
+    {
+      "photo": "/2025 Photos/Cafe Mars Patrick Dolande Arbereshe egg blue background.jpg",
+      "description": "Arbëreshë easter basket, red quail eggs, jufka, trout roe",
+      "alt": "Arbëreshë easter basket, red quail eggs, jufka, trout roe"
+    },
+    {
       "photo": "/photos/almond ice cream.jpg",
       "photographer": "",
       "description": "Toasted almond crunch ice cream, amaretti, olive oil",
@@ -200,6 +195,11 @@
       "photo": "/joespecialbreadsticksmichelin.jpeg",
       "photographer": "Patrick Dolande",
       "alt": "grissone alla Joe's Special, egg yolk jam, garlic butter"
+    },
+    {
+      "photo": "/milanesasuizamichelin2.jpeg",
+      "photographer": "Patrick Dolande",
+      "alt": "milanesa suiza, souffle potatoes"
     },
     {
       "photo": "/curedshrimpscampi.jpg",
