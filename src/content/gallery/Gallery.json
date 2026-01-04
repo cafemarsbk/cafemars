@@ -1,6 +1,11 @@
 {
   "photoentry": [
     {
+      "photo": "/swordfishskewerfar.jpg",
+      "photographer": "Patrick Dolande",
+      "alt": "grilled swordfish, black olive teriyaki, fennel-orange-pine nut"
+    },
+    {
       "photo": "/steakangelo2.jpg",
       "photographer": "Juan David Gracia",
       "alt": "steak Angelo, Cooper Sharp, garlic croutons, celery"
