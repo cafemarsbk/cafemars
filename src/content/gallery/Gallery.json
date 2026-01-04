@@ -11,11 +11,6 @@
       "alt": "steak Angelo, Cooper Sharp, garlic croutons, celery"
     },
     {
-      "photo": "/rotalini.jpg",
-      "photographer": "Patrick Dolande",
-      "alt": "rotalini, broccoli rabe & provolone, long hot-braised pork cheek"
-    },
-    {
       "photo": "/musselsriggies.jpg",
       "photographer": "Patrick Dolande",
       "alt": "riggies, mussels, sweet & hot peppers"
@@ -36,24 +31,14 @@
       "alt": "chocolate & concerto ice cream sandwich, candied barley"
     },
     {
-      "photo": "/babyaki.jpg",
-      "photographer": "Patrick Dolande",
-      "alt": "baba-yaki, toasted rice, sencha, fennel candy"
-    },
-    {
       "photo": "/ankakehigh.jpg",
       "photographer": "Patrick Dolande",
       "alt": "Ankake bucatini, pepperoni, crimini, Worcestershire"
     },
     {
-      "photo": "/2025 Photos/Cafe Mars Patrick Dolande Arbereshe egg blue background.jpg",
-      "description": "Arbëreshë easter basket, red quail eggs, jufka, trout roe",
-      "alt": "Arbëreshë easter basket, red quail eggs, jufka, trout roe"
-    },
-    {
-      "photo": "/girellowyellow.jpg",
+      "photo": "/rotalini.jpg",
       "photographer": "Patrick Dolande",
-      "alt": "girelle, lemon, lemon, lemon, capers, basil"
+      "alt": "rotalini, broccoli rabe & provolone, long hot-braised pork cheek"
     },
     {
       "photo": "/2025 Photos/muffalettaclose.jpg",
@@ -79,10 +64,9 @@
       "alt": "Big blue dining room"
     },
     {
-      "photo": "/dotsabove.jpg",
-      "photographer": "",
-      "description": "Neapolitan ice cream from the future, blackberry, vanilla, pistachio",
-      "alt": "Neapolitan ice cream from the future, blackberry, vanilla, pistachio"
+      "photo": "/babyaki.jpg",
+      "photographer": "Patrick Dolande",
+      "alt": "baba-yaki, toasted rice, sencha, fennel candy"
     },
     {
       "photo": "/Food photos/July_NewYorker_C10057-Edit.jpg",
@@ -91,9 +75,9 @@
       "alt": "Jell-olives, Castelvetrano, negroni gel, orange"
     },
     {
-      "photo": "/2025 Photos/smokedscallopsside.jpg",
-      "description": "smoked scallops, Okinawa sweet potato, sage pizelle, vin Santo",
-      "alt": "smoked scallops, Okinawa sweet potato, sage pizelle, vin Santo"
+      "photo": "/girellowyellow.jpg",
+      "photographer": "Patrick Dolande",
+      "alt": "girelle, lemon, lemon, lemon, capers, basil"
     },
     {
       "photo": "/photos/isola bella purple.jpg",
@@ -112,10 +96,9 @@
       "alt": "Blue Meanie (mezcal, kiwi, absinthe, blue curaçao)"
     },
     {
-      "photo": "/2025 Photos/bagnachaudaclose.jpg",
-      "photographer": "",
-      "description": "bagna chowda, marinated mussels, salt potatoes, tarragon",
-      "alt": "bagna chowda, marinated mussels, salt potatoes, tarragon"
+      "photo": "/2025 Photos/Cafe Mars Patrick Dolande Arbereshe egg blue background.jpg",
+      "description": "Arbëreshë easter basket, red quail eggs, jufka, trout roe",
+      "alt": "Arbëreshë easter basket, red quail eggs, jufka, trout roe"
     },
     {
       "photo": "/shrimpfradiavoloside.jpg",
@@ -203,11 +186,6 @@
       "alt": "Tropical fruit, fresh & dried, umeshu zabaglione"
     },
     {
-      "photo": "/milanesasuizamichelin.jpeg",
-      "photographer": "Patrick Dolande",
-      "alt": "milanesa suiza, shuffle potatoes"
-    },
-    {
       "photo": "/photos/almond ice cream.jpg",
       "photographer": "",
       "description": "Toasted almond crunch ice cream, amaretti, olive oil",
@@ -241,9 +219,10 @@
       "alt": "Lazy Susan (mezcal, Midori, chamomile, St. Agrestis Paradiso)"
     },
     {
-      "photo": "/2024 photos/ankimolo.jpg",
-      "description": "monkfish liver, white balsamic, nashi mostarda",
-      "alt": "monkfish liver, white balsamic, nashi mostarda"
+      "photo": "/dotsabove.jpg",
+      "photographer": "",
+      "description": "Neapolitan ice cream from the future, blackberry, vanilla, pistachio",
+      "alt": "Neapolitan ice cream from the future, blackberry, vanilla, pistachio"
     }
   ]
 }
