@@ -7,9 +7,9 @@ mainImage: /photos/fulltable1.jpg
 
 # About Us
 
-Café Mars is an unusual Italian restaurant, nestled in the heart of the historically Italian neighborhood of Gowanus, Brooklyn. Since May 2023, Paul D'Avino (chef) and the whole team are looking to honor tradition while expanding the definition of what an Italian restaurant can be.
+Café Mars is an unusual Italian restaurant, nestled in the heart of the historically Italian neighborhood of Gowanus, Brooklyn. Since May 2023, Paul D'Avino (chef), Stephen Puntillo (Service Director) and the whole team are looking to honor tradition while expanding the definition of what an Italian restaurant can be.
 
-Steeped in Italian history, Café Mars occupies a former pasta factory and Italian grocer, sitting across the street from the home Paul's great grandfather lived in after immigrating to Brooklyn from Campania, Italy in 1901. While Café Mars' connection to the past is strong, we also tap into the ever-evolving elements of modern Italian culture beyond just gastronomy. Our combined restaurant experience (wd\~50, aska, Cochon), as well as our travels and research lend a broad base to deliver a different kind of Italian meal.
+Steeped in Italian history, Café Mars occupies a former pasta factory and Italian grocer, sitting across the street from the home Paul's great grandfather lived in after immigrating to Brooklyn from Campania, Italy in 1901. While Café Mars' connection to the past is strong, we also tap into the ever-evolving elements of modern Italian culture beyond just gastronomy. Our combined restaurant experience (wd\~50, aska, Lincoln Ristorante, Torrisi Italian Specialties), as well as our travels and research lend a broad base to deliver a different kind of Italian meal.
 
 Whereas many Italian restaurants tend to use a magnifying glass to zoom in on specific regions and traditions, we instead reach for a telescope. Café Mars looks at the totality of Italian cuisine, gaining inspiration from every region of Italy, and even beyond the boot. From the port cities of North and South America to the Itameshi cuisine of Japan, the universal love of Italian cooking has seen it travel to every corner of the world, reinterpreted wherever it went. That's our Italy. Be it food or drink, our menus shine a light on overlooked classics and unexpected flavors that aim to reframe what it means to go out for Italian.
 
@@ -29,7 +29,7 @@ We are a small team at Café Mars and do not have a dedicated reservationist. We
 
 **Do you have vegetarian or vegan options?!**
 
-At Café Mars, we love vegetables and they inspire much of our food. A good deal of the menu is, or can be made to be, vegetarian. That being said, Italian cooking leans heavily on dairy, eggs, and many other animal products, so we seldom have expressly vegan dishes available.
+At Café Mars, we love vegetables and they inspire much of our food. A good deal of the menu is, or can be made to be, vegetarian. That being said, Italian cooking leans heavily on dairy, eggs, and many other animal products, so we seldom have expressly vegan dishes available. Please inquire in advance to be sure, as our menu changes very frequently.
 
 **Do you have gluten-free options?!**
 
