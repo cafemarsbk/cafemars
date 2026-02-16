@@ -7,7 +7,7 @@ mainImage: /photos/fulltable1.jpg
 
 # About Us
 
-Café Mars is an unusual Italian restaurant, nestled in the heart of the historically Italian neighborhood of Gowanus, Brooklyn. Since May 2023, Paul D'Avino (chef), Stephen Puntillo (Service Director) and the whole team are looking to honor tradition while expanding the definition of what an Italian restaurant can be.
+Café Mars is an unusual Italian restaurant, nestled in the heart of the historically Italian neighborhood of Gowanus, Brooklyn. Since May 2023, Paul D'Avino (co-chef), Juan David Gracia (co-chef), Stephen Puntillo (Service Director) and the whole team are looking to honor tradition, while expanding the definition of what an Italian restaurant can be.
 
 Steeped in Italian history, Café Mars occupies a former pasta factory and Italian grocer, sitting across the street from the home Paul's great grandfather lived in after immigrating to Brooklyn from Campania, Italy in 1901. While Café Mars' connection to the past is strong, we also tap into the ever-evolving elements of modern Italian culture beyond just gastronomy. Our combined restaurant experience (wd\~50, aska, Lincoln Ristorante, Torrisi Italian Specialties), as well as our travels and research lend a broad base to deliver a different kind of Italian meal.
 
