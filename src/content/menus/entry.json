@@ -22,8 +22,9 @@
     },
     {
       "title": "Bottles",
+      "isDraft": false,
       "pictureOrText": true,
-      "menuPicture": "/CM BTB 12.2.25.jpg"
+      "menuPicture": "/Cafe Mars Newmenu BTB 3.4.26.jpg"
     }
   ]
 }
