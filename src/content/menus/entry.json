@@ -2,6 +2,11 @@
   "title": "menus",
   "menuitem": [
     {
+      "title": "Brunch",
+      "pictureOrText": true,
+      "menuPicture": "/CM BRUNCH 3.18.26.jpg"
+    },
+    {
       "title": "Main",
       "isDraft": false,
       "pictureOrText": true,
