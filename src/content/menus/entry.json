@@ -8,17 +8,17 @@
       "menuPicture": "/CM Main 3.5.26.jpg"
     },
     {
+      "title": "Brunch",
+      "pictureOrText": true,
+      "menuPicture": "/CM BRUNCH 3.18.26.jpg"
+    },
+    {
       "title": "Drinks",
       "pictureOrText": true,
       "menuPicture": "/Cafe Mars Newmenu BTG 2.13.26.jpg",
       "subsection": [
         {}
       ]
-    },
-    {
-      "title": "Brunch",
-      "pictureOrText": true,
-      "menuPicture": "/CM BRUNCH 3.18.26.jpg"
     },
     {
       "title": "Amaro & Grappa",
