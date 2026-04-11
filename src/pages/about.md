@@ -5,6 +5,18 @@ title: Info
 mainImage: /photos/fulltable1.jpg
 ---
 
+# Ita-may-shi?!
+
+Café Mars is proud to announce we will completely transform into an Italian izakaya for the month of May. 
+
+From all-new food and drink menus to rigatoni chopstick holders, neon katakana version of our sign and a Suntory “Divine Foam” draft machine, Café Mars is making a full-blown Itameshi metamorphosis!
+
+This month-long transformation was inspired by the success of last year’s Global Italian series, where for one weekend a month, Café Mars dedicated their full menu to spotlighting different regions around the world where Italian food has impacted food and culture. Regions included Philadelphia/NJ, New Orleans and New York State, as well lesser known Italian-inspired pockets including Argentina, Ethiopia/Eritrea, Arbëreshë, Rhode Island/Connecticut, The Bay Area, and more. For each global event, Café Mars invited a chef representing each region into their kitchen to collaborate on the full menu. Partners included: Bilena Settepani (Ethiopia/Eritrea), Gianna Ristorante (New Orleans), snail bar (Bay Area), and Faicco’s (New York).
+
+One of our favorite events was Japan with legendary chef, James Mark (north, big king). Café Mars is delighted to further explore this corner of Italian cuisine, where Japanese ingredients are married with Italian frameworks and vice versa. Think fluke cured in Parm and white miso, a pepperonigiri (?!), giardiniera-infused potato salad with Slice Spice Pringles, and pan-fried tortellini-gyoza with Bergamot ponzu. 
+
+Book now! Kicking off Wednesday, May 6th every Wed, Thur, Fri and Saturday all dinner services will exclusively feature a full menu of Café Mars’ vision of Itameshi cuisine.
+
 # About Us
 
 Café Mars is an unusual Italian restaurant, opened in May 2023 and nestled in the heart of the historically Italian neighborhood of Gowanus, Brooklyn. Led by Paul D'Avino (co-chef), Juan David Gracia (co-chef), and Stephen Puntillo (Service Director), the whole team has been looking to honor tradition, while expanding the definition of what an Italian restaurant can be.
