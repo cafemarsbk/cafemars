@@ -15,7 +15,7 @@ This month-long transformation was inspired by the success of last year’s Glob
 
 One of our favorite events was Japan with legendary chef, James Mark (north, big king). Café Mars is delighted to further explore this corner of Italian cuisine, where Japanese ingredients are married with Italian frameworks and vice versa. Think fluke cured in Parm and white miso, a pepperonigiri (?!), giardiniera-infused potato salad with Slice Spice Pringles, and pan-fried tortellini-gyoza with Bergamot ponzu. 
 
-Book now! Kicking off Wednesday, May 6th every Wed, Thur, Fri and Saturday all dinner services will exclusively feature a full menu of Café Mars’ vision of Itameshi cuisine.
+Book now! Kicking off Wednesday, May 6th every dinner service will exclusively feature a full menu of Café Mars’ vision of Itameshi cuisine.
 
 # About Us
 
