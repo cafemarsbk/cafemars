@@ -2,6 +2,11 @@
   "title": "menus",
   "menuitem": [
     {
+      "title": "Ita-May-shi?!",
+      "pictureOrText": true,
+      "menuPicture": "/CM Itameshi Month.jpg"
+    },
+    {
       "title": "Main",
       "isDraft": false,
       "pictureOrText": true,
