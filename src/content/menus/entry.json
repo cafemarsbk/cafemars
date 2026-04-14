@@ -2,15 +2,15 @@
   "title": "menus",
   "menuitem": [
     {
-      "title": "Ita-May-shi?!",
-      "pictureOrText": true,
-      "menuPicture": "/CM Itameshi Month.jpg"
-    },
-    {
       "title": "Main",
       "isDraft": false,
       "pictureOrText": true,
-      "menuPicture": "/CM Main 3.5.26.jpg"
+      "menuPicture": "/CM Main 4.1.26.jpg"
+    },
+    {
+      "title": "Ita-May-shi?!",
+      "pictureOrText": true,
+      "menuPicture": "/CM Itameshi Month.jpg"
     },
     {
       "title": "Brunch",
