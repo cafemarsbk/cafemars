@@ -8,16 +8,16 @@
       "menuPicture": "/CM Main 4.1.26.jpg"
     },
     {
-      "title": "Brunch",
-      "isDraft": false,
-      "pictureOrText": true,
-      "menuPicture": "/CM BRUNCH 4.12.26.jpg"
-    },
-    {
       "title": "Itameshi",
       "isDraft": false,
       "pictureOrText": true,
       "menuPicture": "/CM Itameshi Month.jpg"
+    },
+    {
+      "title": "Brunch",
+      "isDraft": false,
+      "pictureOrText": true,
+      "menuPicture": "/CM BRUNCH 4.12.26.jpg"
     },
     {
       "title": "Drinks",
