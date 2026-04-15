@@ -3,8 +3,8 @@
   "menuitem": [
     {
       "title": "Main",
-      "isDraft": true,
-      "pictureOrText": false,
+      "isDraft": false,
+      "pictureOrText": true,
       "menuPicture": "/CM Main 4.1.26.jpg"
     },
     {
