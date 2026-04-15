@@ -9,7 +9,7 @@ mainImage: /photos/fulltable1.jpg
 
 Café Mars is proud to announce we will completely transform into an Italian izakaya for the month of May. 
 
-From all-new food and drink menus to rigatoni chopstick holders, neon katakana version of our sign and a Suntory “Divine Foam” draft machine, Café Mars is making a full-blown Itameshi metamorphosis!
+From all-new food and drink menus to rigatoni chopstick holders, neon katakana version of our sign and a Suntory “Divine Foam” draft machine, Café Mars is making a full-blown Itameshi metamorphosis! 
 
 This month-long transformation was inspired by the success of last year’s Global Italian series, where for one weekend a month, Café Mars dedicated their full menu to spotlighting different regions around the world where Italian food has impacted food and culture. Regions included Philadelphia/NJ, New Orleans and New York State, as well lesser known Italian-inspired pockets including Argentina, Ethiopia/Eritrea, Arbëreshë, Rhode Island/Connecticut, The Bay Area, and more. For each global event, Café Mars invited a chef representing each region into their kitchen to collaborate on the full menu. Partners included: Bilena Settepani (Ethiopia/Eritrea), Gianna Ristorante (New Orleans), snail bar (Bay Area), and Faicco’s (New York).
 
