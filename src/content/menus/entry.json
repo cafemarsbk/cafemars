@@ -8,15 +8,15 @@
       "menuPicture": "/CM Itameshi 5.7.26.jpg"
     },
     {
+      "title": "Drinks",
+      "pictureOrText": true,
+      "menuPicture": "/Itameshi BTG 5.6.26.jpg"
+    },
+    {
       "title": "Brunch",
       "isDraft": false,
       "pictureOrText": true,
       "menuPicture": "/CM BRUNCH 4.12.26.jpg"
-    },
-    {
-      "title": "Drinks",
-      "pictureOrText": true,
-      "menuPicture": "/Itameshi BTG 5.6.26.jpg"
     },
     {
       "title": "Amaro & Grappa",
@@ -27,7 +27,7 @@
       "title": "Bottles",
       "isDraft": false,
       "pictureOrText": true,
-      "menuPicture": "/Cafe Mars Newmenu BTB 4.6.26.jpg"
+      "menuPicture": "/ITAMESHI BTB 5.6.26.jpg"
     }
   ]
 }
