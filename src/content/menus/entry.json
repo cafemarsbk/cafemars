@@ -2,16 +2,10 @@
   "title": "menus",
   "menuitem": [
     {
-      "title": "Main",
-      "isDraft": false,
-      "pictureOrText": true,
-      "menuPicture": "/CM Main 4.2.26.jpg"
-    },
-    {
       "title": "Itameshi",
       "isDraft": false,
       "pictureOrText": true,
-      "menuPicture": "/itameshiwebsite.jpg"
+      "menuPicture": "/CM Itameshi 5.7.26.pdf"
     },
     {
       "title": "Brunch",
