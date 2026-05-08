@@ -3,8 +3,8 @@
   "menuitem": [
     {
       "title": "Main",
-      "isDraft": false,
-      "pictureOrText": true,
+      "isDraft": true,
+      "pictureOrText": false,
       "menuPicture": "/itameshi.jpg"
     },
     {
