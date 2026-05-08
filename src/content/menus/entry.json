@@ -3,9 +3,9 @@
   "menuitem": [
     {
       "title": "Main",
-      "isDraft": true,
-      "pictureOrText": false,
-      "menuPicture": "/itameshi.jpg"
+      "isDraft": false,
+      "pictureOrText": true,
+      "menuPicture": "/Itameshi2.jpg"
     },
     {
       "title": "Drinks",
