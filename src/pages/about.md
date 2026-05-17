@@ -9,7 +9,7 @@ mainImage: /photos/fulltable1.jpg
 
 Café Mars is proud to announce we will completely transform into an Italian izakaya for the month of May. 
 
-From all-new food and drink menus to rigatoni chopstick holders, neon katakana version of our sign and a Suntory “Divine Foam” draft machine, Café Mars is making a full-blown Itameshi metamorphosis! 
+From all-new food and drink menus to rigatoni chopstick holders, neon katakana version of our sign and a Suntory “Divine Foam” draft machine, Café Mars is making a full-blown Itameshi metamorphosis!
 
 This month-long transformation was inspired by the success of last year’s Global Italian series, where for one weekend a month, Café Mars dedicated their full menu to spotlighting different regions around the world where Italian food has impacted food and culture. Regions included Philadelphia/NJ, New Orleans and New York State, as well lesser known Italian-inspired pockets including Argentina, Ethiopia/Eritrea, Arbëreshë, Rhode Island/Connecticut, The Bay Area, and more. For each global event, Café Mars invited a chef representing each region into their kitchen to collaborate on the full menu. Partners included: Bilena Settepani (Ethiopia/Eritrea), Gianna Ristorante (New Orleans), snail bar (Bay Area), and Faicco’s (New York).
 
@@ -19,9 +19,9 @@ Book now! Kicking off Wednesday, May 6th every dinner service will exclusively f
 
 # About Us
 
-Café Mars is an unusual Italian restaurant, opened in May 2023 and nestled in the heart of the historically Italian neighborhood of Gowanus, Brooklyn. Led by Paul D'Avino (co-chef), Juan David Gracia (co-chef), and Stephen Puntillo (Service Director), the whole team has been looking to honor tradition, while expanding the definition of what an Italian restaurant can be.
+Café Mars is an unusual Italian restaurant, opened in May 2023 and nestled in the heart of the historically Italian neighborhood of Gowanus, Brooklyn. Led by Paul D'Avino (co-chef), Juan David Gracia (co-chef), Sierra Chunko (Beverage Director), and Spencer Mckinnon (Service Director), the whole team has been looking to honor tradition, while expanding the definition of what an Italian restaurant can be.
 
-Steeped in Italian history, Café Mars occupies a former pasta factory and Italian grocer, sitting across the street from the home Paul's great grandfather lived in after immigrating to Brooklyn from Campania, Italy in 1901. While Café Mars' connection to the past is strong, we also tap into the ever-evolving elements of modern Italian culture beyond just gastronomy. Our combined restaurant experience (wd\~50, aska, Lincoln Ristorante, Torrisi Italian Specialties), as well as our travels and research lend a broad base to deliver a different kind of Italian meal.
+Steeped in Italian history, Café Mars occupies a former pasta factory and Italian grocer, sitting across the street from the home Paul's great grandfather lived in after immigrating to Brooklyn from Campania, Italy in 1901. While Café Mars' connection to the past is strong, we also tap into the ever-evolving elements of modern Italian culture beyond just gastronomy. Our combined restaurant experience (wd\~50, aska, Rezdora, Diner), as well as our travels and research, lend a broad base to deliver a different kind of Italian meal.
 
 Whereas many Italian restaurants tend to use a magnifying glass to zoom in on specific regions and traditions, we instead reach for a telescope. Café Mars looks at the totality of Italian cuisine, gaining inspiration from every region of Italy, and even beyond the boot. From the port cities of North and South America to the Itameshi cuisine of Japan, the universal love of Italian cooking has seen it travel to every corner of the world, reinterpreted wherever it went. That's our Italy. Be it food or drink, our menus shine a light on overlooked classics and unexpected flavors that aim to reframe what it means to go out for Italian.
 
